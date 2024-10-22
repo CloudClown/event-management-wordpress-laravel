@@ -1,0 +1,1299 @@
+[21-Oct-2024 17:40:37 UTC] API Connection Test Status: 200
+[21-Oct-2024 17:40:37 UTC] API Connection Test Body: []
+[21-Oct-2024 17:40:47 UTC] API Connection Test Status: 200
+[21-Oct-2024 17:40:47 UTC] API Connection Test Body: []
+[21-Oct-2024 17:40:47 UTC] Form submitted. POST data: Array
+(
+    [title] => asd
+    [description] => asd
+    [date] => 2024-10-21
+    [time] => 23:40
+    [location] => asd
+    [category] => asd
+    [submit] => Add Event
+)
+
+[21-Oct-2024 17:40:47 UTC] Attempting to add event. Data: Array
+(
+    [title] => asd
+    [description] => asd
+    [date] => 2024-10-21
+    [time] => 23:40
+    [location] => asd
+    [category] => asd
+    [submit] => Add Event
+)
+
+[21-Oct-2024 17:40:47 UTC] API Response Status: 201
+[21-Oct-2024 17:40:47 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"asd","description":"asd","date":"2024-10-21T00:00:00.000000Z","time":"2024-10-21T23:40:00.000000Z","location":"asd","category":"asd","updated_at":"2024-10-21T17:40:47.000000Z","created_at":"2024-10-21T17:40:47.000000Z","id":1}}
+[21-Oct-2024 17:58:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function em_get_events() in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\event-manager\templates\event-list.php:10
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\event-manager\includes\admin-menu.php(43): include()
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): em_display_event_list('')
+#2 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin.php(259): do_action('toplevel_page_e...')
+#5 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\event-manager\templates\event-list.php on line 10
+[21-Oct-2024 17:58:12 UTC] API Connection Test Error: cURL error 7: Failed to connect to localhost port 8000 after 2259 ms: Couldn't connect to server
+[21-Oct-2024 17:58:36 UTC] API Connection Test Status: 200
+[21-Oct-2024 17:58:36 UTC] API Connection Test Body: [{"id":1,"title":"asd","description":"asd","date":"2024-10-21T00:00:00.000000Z","time":"2024-10-21T23:40:00.000000Z","location":"asd","category":"asd","created_at":"2024-10-21T17:40:47.000000Z","updated_at":"2024-10-21T17:40:47.000000Z"}]
+[21-Oct-2024 17:58:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function em_get_events() in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\event-manager\templates\event-list.php:10
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\event-manager\includes\admin-menu.php(43): include()
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): em_display_event_list('')
+#2 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin.php(259): do_action('toplevel_page_e...')
+#5 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\event-manager\templates\event-list.php on line 10
+[21-Oct-2024 17:58:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function em_get_events() in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\event-manager\templates\event-list.php:10
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\event-manager\includes\admin-menu.php(43): include()
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): em_display_event_list('')
+#2 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin.php(259): do_action('toplevel_page_e...')
+#5 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\event-manager\templates\event-list.php on line 10
+[21-Oct-2024 17:58:48 UTC] API Connection Test Status: 200
+[21-Oct-2024 17:58:48 UTC] API Connection Test Body: [{"id":1,"title":"asd","description":"asd","date":"2024-10-21T00:00:00.000000Z","time":"2024-10-21T23:40:00.000000Z","location":"asd","category":"asd","created_at":"2024-10-21T17:40:47.000000Z","updated_at":"2024-10-21T17:40:47.000000Z"}]
+[21-Oct-2024 17:58:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function em_get_events() in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\event-manager\templates\event-list.php:10
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\event-manager\includes\admin-menu.php(43): include()
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): em_display_event_list('')
+#2 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin.php(259): do_action('toplevel_page_e...')
+#5 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\event-manager\templates\event-list.php on line 10
+[21-Oct-2024 18:00:09 UTC] API Connection Test Status: 200
+[21-Oct-2024 18:00:09 UTC] API Connection Test Body: [{"id":1,"title":"asd","description":"asd","date":"2024-10-21T00:00:00.000000Z","time":"2024-10-21T23:40:00.000000Z","location":"asd","category":"asd","created_at":"2024-10-21T17:40:47.000000Z","updated_at":"2024-10-21T17:40:47.000000Z"}]
+[21-Oct-2024 18:00:18 UTC] API Connection Test Status: 200
+[21-Oct-2024 18:00:18 UTC] API Connection Test Body: [{"id":1,"title":"asd","description":"asd","date":"2024-10-21T00:00:00.000000Z","time":"2024-10-21T23:40:00.000000Z","location":"asd","category":"asd","created_at":"2024-10-21T17:40:47.000000Z","updated_at":"2024-10-21T17:40:47.000000Z"}]
+[21-Oct-2024 18:00:18 UTC] Form submitted. POST data: Array
+(
+    [title] => asd
+    [description] => asd
+    [date] => 2024-10-22
+    [time] => 00:00
+    [location] => al hamra
+    [category] => asd
+    [submit] => Add Event
+)
+
+[21-Oct-2024 18:00:18 UTC] Attempting to add event. Data: Array
+(
+    [title] => asd
+    [description] => asd
+    [date] => 2024-10-22
+    [time] => 00:00
+    [location] => al hamra
+    [category] => asd
+    [submit] => Add Event
+)
+
+[21-Oct-2024 18:00:18 UTC] API Response Status: 201
+[21-Oct-2024 18:00:18 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"asd","description":"asd","date":"2024-10-22T00:00:00.000000Z","time":"2024-10-21T00:00:00.000000Z","location":"al hamra","category":"asd","updated_at":"2024-10-21T18:00:18.000000Z","created_at":"2024-10-21T18:00:18.000000Z","id":2}}
+[21-Oct-2024 18:00:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\script-loader.php:2936) in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\pluggable.php on line 1435
+[21-Oct-2024 18:00:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\script-loader.php:2936) in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\pluggable.php on line 1438
+[21-Oct-2024 18:01:42 UTC] API Connection Test Status: 200
+[21-Oct-2024 18:01:42 UTC] API Connection Test Body: [{"id":1,"title":"asd","description":"asd","date":"2024-10-21T00:00:00.000000Z","time":"2024-10-21T23:40:00.000000Z","location":"asd","category":"asd","created_at":"2024-10-21T17:40:47.000000Z","updated_at":"2024-10-21T17:40:47.000000Z"}]
+[21-Oct-2024 18:02:20 UTC] API Connection Test Status: 200
+[21-Oct-2024 18:02:20 UTC] API Connection Test Body: [{"id":1,"title":"asd","description":"asd","date":"2024-10-21T00:00:00.000000Z","time":"2024-10-21T23:40:00.000000Z","location":"asd","category":"asd","created_at":"2024-10-21T17:40:47.000000Z","updated_at":"2024-10-21T17:40:47.000000Z"}]
+[21-Oct-2024 18:02:20 UTC] Form submitted. POST data: Array
+(
+    [title] => Birthday party of JAXXX
+    [description] => Party 
+    [date] => 2024-11-01
+    [time] => 15:00
+    [location] => Kabab Karigor
+    [category] => Party
+    [submit] => Add Event
+)
+
+[21-Oct-2024 18:02:20 UTC] Attempting to add event. Data: Array
+(
+    [title] => Birthday party of JAXXX
+    [description] => Party 
+    [date] => 2024-11-01
+    [time] => 15:00
+    [location] => Kabab Karigor
+    [category] => Party
+    [submit] => Add Event
+)
+
+[21-Oct-2024 18:02:21 UTC] API Response Status: 201
+[21-Oct-2024 18:02:21 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"Birthday party of JAXXX","description":"Party","date":"2024-11-01T00:00:00.000000Z","time":"2024-10-21T15:00:00.000000Z","location":"Kabab Karigor","category":"Party","updated_at":"2024-10-21T18:02:21.000000Z","created_at":"2024-10-21T18:02:21.000000Z","id":3}}
+[21-Oct-2024 18:02:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\script-loader.php:2936) in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\pluggable.php on line 1435
+[21-Oct-2024 18:02:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\script-loader.php:2936) in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\pluggable.php on line 1438
+[22-Oct-2024 17:12:21 UTC] API Connection Test Status: 200
+[22-Oct-2024 17:12:21 UTC] API Connection Test Body: []
+[22-Oct-2024 18:20:19 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:111
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(111): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list]')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list]')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(387): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#9 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#15 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 111
+[22-Oct-2024 18:20:23 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:111
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(111): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list]\n')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list]\n')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(387): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#9 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#15 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 111
+[22-Oct-2024 18:20:24 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:111
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(111): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list]')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list]')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(387): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#9 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#15 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 111
+[22-Oct-2024 18:20:33 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:111
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(111): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list]')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list]')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(759): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\element-base.php(618): Elementor\Widget_Base->get_raw_data(true)
+#9 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(1085): Elementor\Element_Base->get_raw_data(true)
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(738): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(1070): Elementor\Core\Base\Document->get_initial_config()
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\editor\loader\common\editor-common-scripts-settings.php(38): Elementor\Controls_Stack->get_config()
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\editor\loader\v2\editor-v2-loader.php(144): Elementor\Core\Editor\Loader\Common\Editor_Common_Scripts_Settings::get()
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\editor\editor.php(364): Elementor\Core\Editor\Loader\V2\Editor_V2_Loader->enqueue_scripts()
+#15 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Editor\Editor->enqueue_scripts('')
+#16 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\script-loader.php(2263): do_action('wp_enqueue_scri...')
+#19 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#20 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#21 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#22 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\general-template.php(3065): do_action('wp_head')
+#23 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php(31): wp_head()
+#24 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\editor\loader\v2\editor-v2-loader.php(194): include('C:\\Users\\tahmid...')
+#25 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\editor\editor.php(169): Elementor\Core\Editor\Loader\V2\Editor_V2_Loader->print_root_template()
+#26 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Editor\Editor->init('')
+#27 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#28 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#29 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin.php(419): do_action('admin_action_el...')
+#30 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\post.php(12): require_once('C:\\Users\\tahmid...')
+#31 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 111
+[22-Oct-2024 18:20:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[22-Oct-2024 18:20:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[22-Oct-2024 18:20:45 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:111
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(111): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list]')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list]')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(387): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#9 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#15 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 111
+[22-Oct-2024 18:20:54 UTC] API Connection Test Status: 200
+[22-Oct-2024 18:20:54 UTC] API Connection Test Body: []
+[22-Oct-2024 18:20:59 UTC] API Connection Test Status: 200
+[22-Oct-2024 18:20:59 UTC] API Connection Test Body: []
+[22-Oct-2024 18:20:59 UTC] Form submitted. POST data: Array
+(
+    [title] => Voluptatem laborum 
+    [description] => In sint officia nes
+    [date] => 1996-04-20
+    [time] => 14:51
+    [location] => Ullamco sint alias 
+    [category] => Aliquip sint impedit
+    [submit] => Add Event
+)
+
+[22-Oct-2024 18:20:59 UTC] Attempting to add event. Data: Array
+(
+    [title] => Voluptatem laborum 
+    [description] => In sint officia nes
+    [date] => 1996-04-20
+    [time] => 14:51
+    [location] => Ullamco sint alias 
+    [category] => Aliquip sint impedit
+    [submit] => Add Event
+)
+
+[22-Oct-2024 18:20:59 UTC] API Response Status: 201
+[22-Oct-2024 18:20:59 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"Voluptatem laborum","description":"In sint officia nes","date":"1996-04-20T00:00:00.000000Z","time":"2024-10-22T14:51:00.000000Z","location":"Ullamco sint alias","category":"Aliquip sint impedit","updated_at":"2024-10-22T18:20:59.000000Z","created_at":"2024-10-22T18:20:59.000000Z","id":5}}
+[22-Oct-2024 18:21:11 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:111
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(111): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list]')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list]')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(387): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#9 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#15 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 111
+[22-Oct-2024 18:21:50 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:111
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(111): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list]')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list]')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(387): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#9 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#15 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 111
+[22-Oct-2024 18:24:42 UTC] API Connection Test Status: 200
+[22-Oct-2024 18:24:42 UTC] API Connection Test Body: [{"id":5,"title":"Voluptatem laborum","description":"In sint officia nes","date":"1996-04-20T00:00:00.000000Z","time":"2024-10-22T14:51:00.000000Z","location":"Ullamco sint alias","category":"Aliquip sint impedit","created_at":"2024-10-22T18:20:59.000000Z","updated_at":"2024-10-22T18:20:59.000000Z","primary_image":null}]
+[22-Oct-2024 18:24:42 UTC] Form submitted. POST data: Array
+(
+    [title] => Dolores rem ut et an
+    [description] => Sapiente consectetur
+    [date] => 2010-01-27
+    [time] => 23:15
+    [location] => Odit commodi in dolo
+    [category] => In incidunt quas de
+    [submit] => Add Event
+)
+
+[22-Oct-2024 18:24:42 UTC] Attempting to add event. Data: Array
+(
+    [title] => Dolores rem ut et an
+    [description] => Sapiente consectetur
+    [date] => 2010-01-27
+    [time] => 23:15
+    [location] => Odit commodi in dolo
+    [category] => In incidunt quas de
+    [submit] => Add Event
+)
+
+[22-Oct-2024 18:24:43 UTC] API Response Status: 201
+[22-Oct-2024 18:24:43 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"Dolores rem ut et an","description":"Sapiente consectetur","date":"2010-01-27T00:00:00.000000Z","time":"2024-10-22T23:15:00.000000Z","location":"Odit commodi in dolo","category":"In incidunt quas de","updated_at":"2024-10-22T18:24:43.000000Z","created_at":"2024-10-22T18:24:43.000000Z","id":6}}
+[22-Oct-2024 18:24:46 UTC] API Connection Test Status: 200
+[22-Oct-2024 18:24:46 UTC] API Connection Test Body: [{"id":5,"title":"Voluptatem laborum","description":"In sint officia nes","date":"1996-04-20T00:00:00.000000Z","time":"2024-10-22T14:51:00.000000Z","location":"Ullamco sint alias","category":"Aliquip sint impedit","created_at":"2024-10-22T18:20:59.000000Z","updated_at":"2024-10-22T18:20:59.000000Z","primary_image":null},{"id":6,"title":"Dolores rem ut et an","description":"Sapiente consectetur","date":"2010-01-27T00:00:00.000000Z","time":"2024-10-22T23:15:00.000000Z","location":"Odit commodi in dolo","category":"In incidunt quas de","created_at":"2024-10-22T18:24:43.000000Z","updated_at":"2024-10-22T18:24:43.000000Z","primary_image":null}]
+[22-Oct-2024 18:24:46 UTC] Form submitted. POST data: Array
+(
+    [title] => Dolores cillum nihil
+    [description] => Deserunt qui deserun
+    [date] => 1978-06-24
+    [time] => 08:34
+    [location] => Ut odit recusandae 
+    [category] => In modi aut eiusmod 
+    [submit] => Add Event
+)
+
+[22-Oct-2024 18:24:46 UTC] Attempting to add event. Data: Array
+(
+    [title] => Dolores cillum nihil
+    [description] => Deserunt qui deserun
+    [date] => 1978-06-24
+    [time] => 08:34
+    [location] => Ut odit recusandae 
+    [category] => In modi aut eiusmod 
+    [submit] => Add Event
+)
+
+[22-Oct-2024 18:24:46 UTC] API Response Status: 201
+[22-Oct-2024 18:24:46 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"Dolores cillum nihil","description":"Deserunt qui deserun","date":"1978-06-24T00:00:00.000000Z","time":"2024-10-22T08:34:00.000000Z","location":"Ut odit recusandae","category":"In modi aut eiusmod","updated_at":"2024-10-22T18:24:46.000000Z","created_at":"2024-10-22T18:24:46.000000Z","id":7}}
+[22-Oct-2024 18:24:48 UTC] API Connection Test Status: 200
+[22-Oct-2024 18:24:48 UTC] API Connection Test Body: [{"id":5,"title":"Voluptatem laborum","description":"In sint officia nes","date":"1996-04-20T00:00:00.000000Z","time":"2024-10-22T14:51:00.000000Z","location":"Ullamco sint alias","category":"Aliquip sint impedit","created_at":"2024-10-22T18:20:59.000000Z","updated_at":"2024-10-22T18:20:59.000000Z","primary_image":null},{"id":6,"title":"Dolores rem ut et an","description":"Sapiente consectetur","date":"2010-01-27T00:00:00.000000Z","time":"2024-10-22T23:15:00.000000Z","location":"Odit commodi in dolo","category":"In incidunt quas de","created_at":"2024-10-22T18:24:43.000000Z","updated_at":"2024-10-22T18:24:43.000000Z","primary_image":null},{"id":7,"title":"Dolores cillum nihil","description":"Deserunt qui deserun","date":"1978-06-24T00:00:00.000000Z","time":"2024-10-22T08:34:00.000000Z","location":"Ut odit recusandae","category":"In modi aut eiusmod","created_at":"2024-10-22T18:24:46.000000Z","updated_at":"2024-10-22T18:24:46.000000Z","primary_image":null}]
+[22-Oct-2024 18:24:48 UTC] Form submitted. POST data: Array
+(
+    [title] => Aut deserunt sapient
+    [description] => Non aliquid nisi eu 
+    [date] => 1980-03-18
+    [time] => 04:53
+    [location] => Dolore sed beatae au
+    [category] => Sed ut rem quos id a
+    [submit] => Add Event
+)
+
+[22-Oct-2024 18:24:48 UTC] Attempting to add event. Data: Array
+(
+    [title] => Aut deserunt sapient
+    [description] => Non aliquid nisi eu 
+    [date] => 1980-03-18
+    [time] => 04:53
+    [location] => Dolore sed beatae au
+    [category] => Sed ut rem quos id a
+    [submit] => Add Event
+)
+
+[22-Oct-2024 18:24:48 UTC] API Response Status: 201
+[22-Oct-2024 18:24:48 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"Aut deserunt sapient","description":"Non aliquid nisi eu","date":"1980-03-18T00:00:00.000000Z","time":"2024-10-22T04:53:00.000000Z","location":"Dolore sed beatae au","category":"Sed ut rem quos id a","updated_at":"2024-10-22T18:24:48.000000Z","created_at":"2024-10-22T18:24:48.000000Z","id":8}}
+[22-Oct-2024 18:24:51 UTC] API Connection Test Status: 200
+[22-Oct-2024 18:24:51 UTC] API Connection Test Body: [{"id":5,"title":"Voluptatem laborum","description":"In sint officia nes","date":"1996-04-20T00:00:00.000000Z","time":"2024-10-22T14:51:00.000000Z","location":"Ullamco sint alias","category":"Aliquip sint impedit","created_at":"2024-10-22T18:20:59.000000Z","updated_at":"2024-10-22T18:20:59.000000Z","primary_image":null},{"id":6,"title":"Dolores rem ut et an","description":"Sapiente consectetur","date":"2010-01-27T00:00:00.000000Z","time":"2024-10-22T23:15:00.000000Z","location":"Odit commodi in dolo","category":"In incidunt quas de","created_at":"2024-10-22T18:24:43.000000Z","updated_at":"2024-10-22T18:24:43.000000Z","primary_image":null},{"id":7,"title":"Dolores cillum nihil","description":"Deserunt qui deserun","date":"1978-06-24T00:00:00.000000Z","time":"2024-10-22T08:34:00.000000Z","location":"Ut odit recusandae","category":"In modi aut eiusmod","created_at":"2024-10-22T18:24:46.000000Z","updated_at":"2024-10-22T18:24:46.000000Z","primary_image":null},{"id":8,"title":"Aut deserunt sapient","description":"Non aliquid nisi eu","date":"1980-03-18T00:00:00.000000Z","time":"2024-10-22T04:53:00.000000Z","location":"Dolore sed beatae au","category":"Sed ut rem quos id a","created_at":"2024-10-22T18:24:48.000000Z","updated_at":"2024-10-22T18:24:48.000000Z","primary_image":null}]
+[22-Oct-2024 18:24:51 UTC] Form submitted. POST data: Array
+(
+    [title] => Labore quis nobis am
+    [description] => Praesentium ea enim 
+    [date] => 2014-12-14
+    [time] => 20:16
+    [location] => Ea reprehenderit deb
+    [category] => Eu enim inventore cu
+    [submit] => Add Event
+)
+
+[22-Oct-2024 18:24:51 UTC] Attempting to add event. Data: Array
+(
+    [title] => Labore quis nobis am
+    [description] => Praesentium ea enim 
+    [date] => 2014-12-14
+    [time] => 20:16
+    [location] => Ea reprehenderit deb
+    [category] => Eu enim inventore cu
+    [submit] => Add Event
+)
+
+[22-Oct-2024 18:24:51 UTC] API Response Status: 201
+[22-Oct-2024 18:24:51 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"Labore quis nobis am","description":"Praesentium ea enim","date":"2014-12-14T00:00:00.000000Z","time":"2024-10-22T20:16:00.000000Z","location":"Ea reprehenderit deb","category":"Eu enim inventore cu","updated_at":"2024-10-22T18:24:51.000000Z","created_at":"2024-10-22T18:24:51.000000Z","id":9}}
+[22-Oct-2024 18:24:54 UTC] API Connection Test Status: 200
+[22-Oct-2024 18:24:54 UTC] API Connection Test Body: [{"id":5,"title":"Voluptatem laborum","description":"In sint officia nes","date":"1996-04-20T00:00:00.000000Z","time":"2024-10-22T14:51:00.000000Z","location":"Ullamco sint alias","category":"Aliquip sint impedit","created_at":"2024-10-22T18:20:59.000000Z","updated_at":"2024-10-22T18:20:59.000000Z","primary_image":null},{"id":6,"title":"Dolores rem ut et an","description":"Sapiente consectetur","date":"2010-01-27T00:00:00.000000Z","time":"2024-10-22T23:15:00.000000Z","location":"Odit commodi in dolo","category":"In incidunt quas de","created_at":"2024-10-22T18:24:43.000000Z","updated_at":"2024-10-22T18:24:43.000000Z","primary_image":null},{"id":7,"title":"Dolores cillum nihil","description":"Deserunt qui deserun","date":"1978-06-24T00:00:00.000000Z","time":"2024-10-22T08:34:00.000000Z","location":"Ut odit recusandae","category":"In modi aut eiusmod","created_at":"2024-10-22T18:24:46.000000Z","updated_at":"2024-10-22T18:24:46.000000Z","primary_image":null},{"id":8,"title":"Aut deserunt sapient","description":"Non aliquid nisi eu","date":"1980-03-18T00:00:00.000000Z","time":"2024-10-22T04:53:00.000000Z","location":"Dolore sed beatae au","category":"Sed ut rem quos id a","created_at":"2024-10-22T18:24:48.000000Z","updated_at":"2024-10-22T18:24:48.000000Z","primary_image":null},{"id":9,"title":"Labore quis nobis am","description":"Praesentium ea enim","date":"2014-12-14T00:00:00.000000Z","time":"2024-10-22T20:16:00.000000Z","location":"Ea reprehenderit deb","category":"Eu enim inventore cu","created_at":"2024-10-22T18:24:51.000000Z","updated_at":"2024-10-22T18:24:51.000000Z","primary_image":null}]
+[22-Oct-2024 18:24:54 UTC] Form submitted. POST data: Array
+(
+    [title] => Ipsum aut id nostrud
+    [description] => Expedita qui numquam
+    [date] => 1976-11-02
+    [time] => 10:55
+    [location] => Dolorem consequat C
+    [category] => Doloremque non nihil
+    [submit] => Add Event
+)
+
+[22-Oct-2024 18:24:54 UTC] Attempting to add event. Data: Array
+(
+    [title] => Ipsum aut id nostrud
+    [description] => Expedita qui numquam
+    [date] => 1976-11-02
+    [time] => 10:55
+    [location] => Dolorem consequat C
+    [category] => Doloremque non nihil
+    [submit] => Add Event
+)
+
+[22-Oct-2024 18:24:55 UTC] API Response Status: 201
+[22-Oct-2024 18:24:55 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"Ipsum aut id nostrud","description":"Expedita qui numquam","date":"1976-11-02T00:00:00.000000Z","time":"2024-10-22T10:55:00.000000Z","location":"Dolorem consequat C","category":"Doloremque non nihil","updated_at":"2024-10-22T18:24:55.000000Z","created_at":"2024-10-22T18:24:55.000000Z","id":10}}
+[22-Oct-2024 18:30:14 UTC] API Connection Test Status: 200
+[22-Oct-2024 18:30:14 UTC] API Connection Test Body: [{"id":5,"title":"Voluptatem laborum","description":"In sint officia nes","date":"1996-04-20T00:00:00.000000Z","time":"2024-10-22T14:51:00.000000Z","location":"Ullamco sint alias","category":"Aliquip sint impedit","created_at":"2024-10-22T18:20:59.000000Z","updated_at":"2024-10-22T18:20:59.000000Z","primary_image":null},{"id":6,"title":"Dolores rem ut et an","description":"Sapiente consectetur","date":"2010-01-27T00:00:00.000000Z","time":"2024-10-22T23:15:00.000000Z","location":"Odit commodi in dolo","category":"In incidunt quas de","created_at":"2024-10-22T18:24:43.000000Z","updated_at":"2024-10-22T18:24:43.000000Z","primary_image":null},{"id":7,"title":"Dolores cillum nihil","description":"Deserunt qui deserun","date":"1978-06-24T00:00:00.000000Z","time":"2024-10-22T08:34:00.000000Z","location":"Ut odit recusandae","category":"In modi aut eiusmod","created_at":"2024-10-22T18:24:46.000000Z","updated_at":"2024-10-22T18:24:46.000000Z","primary_image":null},{"id":8,"title":"Aut deserunt sapient","description":"Non aliquid nisi eu","date":"1980-03-18T00:00:00.000000Z","time":"2024-10-22T04:53:00.000000Z","location":"Dolore sed beatae au","category":"Sed ut rem quos id a","created_at":"2024-10-22T18:24:48.000000Z","updated_at":"2024-10-22T18:24:48.000000Z","primary_image":null},{"id":9,"title":"Labore quis nobis am","description":"Praesentium ea enim","date":"2014-12-14T00:00:00.000000Z","time":"2024-10-22T20:16:00.000000Z","location":"Ea reprehenderit deb","category":"Eu enim inventore cu","created_at":"2024-10-22T18:24:51.000000Z","updated_at":"2024-10-22T18:24:51.000000Z","primary_image":null},{"id":10,"title":"Ipsum aut id nostrud","description":"Expedita qui numquam","date":"1976-11-02T00:00:00.000000Z","time":"2024-10-22T10:55:00.000000Z","location":"Dolorem consequat C","category":"Doloremque non nihil","created_at":"2024-10-22T18:24:55.000000Z","updated_at":"2024-10-22T18:24:55.000000Z","primary_image":null}]
+[22-Oct-2024 18:30:14 UTC] Form submitted. POST data: Array
+(
+    [title] => Et corrupti adipisi
+    [description] => Quod numquam quo lab
+    [date] => 1978-05-25
+    [time] => 10:13
+    [location] => Repudiandae Nam arch
+    [category] => Ad aperiam maiores p
+    [submit] => Add Event
+)
+
+[22-Oct-2024 18:30:14 UTC] Attempting to add event. Data: Array
+(
+    [title] => Et corrupti adipisi
+    [description] => Quod numquam quo lab
+    [date] => 1978-05-25
+    [time] => 10:13
+    [location] => Repudiandae Nam arch
+    [category] => Ad aperiam maiores p
+    [submit] => Add Event
+)
+
+[22-Oct-2024 18:30:14 UTC] API Connection Test Status: 200
+[22-Oct-2024 18:30:14 UTC] API Connection Test Body: [{"id":5,"title":"Voluptatem laborum","description":"In sint officia nes","date":"1996-04-20T00:00:00.000000Z","time":"2024-10-22T14:51:00.000000Z","location":"Ullamco sint alias","category":"Aliquip sint impedit","created_at":"2024-10-22T18:20:59.000000Z","updated_at":"2024-10-22T18:20:59.000000Z","primary_image":null},{"id":6,"title":"Dolores rem ut et an","description":"Sapiente consectetur","date":"2010-01-27T00:00:00.000000Z","time":"2024-10-22T23:15:00.000000Z","location":"Odit commodi in dolo","category":"In incidunt quas de","created_at":"2024-10-22T18:24:43.000000Z","updated_at":"2024-10-22T18:24:43.000000Z","primary_image":null},{"id":7,"title":"Dolores cillum nihil","description":"Deserunt qui deserun","date":"1978-06-24T00:00:00.000000Z","time":"2024-10-22T08:34:00.000000Z","location":"Ut odit recusandae","category":"In modi aut eiusmod","created_at":"2024-10-22T18:24:46.000000Z","updated_at":"2024-10-22T18:24:46.000000Z","primary_image":null},{"id":8,"title":"Aut deserunt sapient","description":"Non aliquid nisi eu","date":"1980-03-18T00:00:00.000000Z","time":"2024-10-22T04:53:00.000000Z","location":"Dolore sed beatae au","category":"Sed ut rem quos id a","created_at":"2024-10-22T18:24:48.000000Z","updated_at":"2024-10-22T18:24:48.000000Z","primary_image":null},{"id":9,"title":"Labore quis nobis am","description":"Praesentium ea enim","date":"2014-12-14T00:00:00.000000Z","time":"2024-10-22T20:16:00.000000Z","location":"Ea reprehenderit deb","category":"Eu enim inventore cu","created_at":"2024-10-22T18:24:51.000000Z","updated_at":"2024-10-22T18:24:51.000000Z","primary_image":null},{"id":10,"title":"Ipsum aut id nostrud","description":"Expedita qui numquam","date":"1976-11-02T00:00:00.000000Z","time":"2024-10-22T10:55:00.000000Z","location":"Dolorem consequat C","category":"Doloremque non nihil","created_at":"2024-10-22T18:24:55.000000Z","updated_at":"2024-10-22T18:24:55.000000Z","primary_image":null}]
+[22-Oct-2024 18:30:14 UTC] Form submitted. POST data: Array
+(
+    [title] => Et corrupti adipisi
+    [description] => Quod numquam quo lab
+    [date] => 1978-05-25
+    [time] => 10:13
+    [location] => Repudiandae Nam arch
+    [category] => Ad aperiam maiores p
+    [submit] => Add Event
+)
+
+[22-Oct-2024 18:30:14 UTC] Attempting to add event. Data: Array
+(
+    [title] => Et corrupti adipisi
+    [description] => Quod numquam quo lab
+    [date] => 1978-05-25
+    [time] => 10:13
+    [location] => Repudiandae Nam arch
+    [category] => Ad aperiam maiores p
+    [submit] => Add Event
+)
+
+[22-Oct-2024 18:30:14 UTC] API Response Status: 201
+[22-Oct-2024 18:30:14 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"Et corrupti adipisi","description":"Quod numquam quo lab","date":"1978-05-25T00:00:00.000000Z","time":"2024-10-22T10:13:00.000000Z","location":"Repudiandae Nam arch","category":"Ad aperiam maiores p","updated_at":"2024-10-22T18:30:14.000000Z","created_at":"2024-10-22T18:30:14.000000Z","id":11}}
+[22-Oct-2024 18:30:15 UTC] API Response Status: 201
+[22-Oct-2024 18:30:15 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"Et corrupti adipisi","description":"Quod numquam quo lab","date":"1978-05-25T00:00:00.000000Z","time":"2024-10-22T10:13:00.000000Z","location":"Repudiandae Nam arch","category":"Ad aperiam maiores p","updated_at":"2024-10-22T18:30:15.000000Z","created_at":"2024-10-22T18:30:15.000000Z","id":12}}
+[22-Oct-2024 18:30:18 UTC] API Connection Test Status: 200
+[22-Oct-2024 18:30:18 UTC] API Connection Test Body: [{"id":5,"title":"Voluptatem laborum","description":"In sint officia nes","date":"1996-04-20T00:00:00.000000Z","time":"2024-10-22T14:51:00.000000Z","location":"Ullamco sint alias","category":"Aliquip sint impedit","created_at":"2024-10-22T18:20:59.000000Z","updated_at":"2024-10-22T18:20:59.000000Z","primary_image":null},{"id":6,"title":"Dolores rem ut et an","description":"Sapiente consectetur","date":"2010-01-27T00:00:00.000000Z","time":"2024-10-22T23:15:00.000000Z","location":"Odit commodi in dolo","category":"In incidunt quas de","created_at":"2024-10-22T18:24:43.000000Z","updated_at":"2024-10-22T18:24:43.000000Z","primary_image":null},{"id":7,"title":"Dolores cillum nihil","description":"Deserunt qui deserun","date":"1978-06-24T00:00:00.000000Z","time":"2024-10-22T08:34:00.000000Z","location":"Ut odit recusandae","category":"In modi aut eiusmod","created_at":"2024-10-22T18:24:46.000000Z","updated_at":"2024-10-22T18:24:46.000000Z","primary_image":null},{"id":8,"title":"Aut deserunt sapient","description":"Non aliquid nisi eu","date":"1980-03-18T00:00:00.000000Z","time":"2024-10-22T04:53:00.000000Z","location":"Dolore sed beatae au","category":"Sed ut rem quos id a","created_at":"2024-10-22T18:24:48.000000Z","updated_at":"2024-10-22T18:24:48.000000Z","primary_image":null},{"id":9,"title":"Labore quis nobis am","description":"Praesentium ea enim","date":"2014-12-14T00:00:00.000000Z","time":"2024-10-22T20:16:00.000000Z","location":"Ea reprehenderit deb","category":"Eu enim inventore cu","created_at":"2024-10-22T18:24:51.000000Z","updated_at":"2024-10-22T18:24:51.000000Z","primary_image":null},{"id":10,"title":"Ipsum aut id nostrud","description":"Expedita qui numquam","date":"1976-11-02T00:00:00.000000Z","time":"2024-10-22T10:55:00.000000Z","location":"Dolorem consequat C","category":"Doloremque non nihil","created_at":"2024-10-22T18:24:55.000000Z","updated_at":"2024-10-22T18:24:55.000000Z","primary_image":null},{"id":11,"title":"Et corrupti adipisi","description":"Quod numquam quo lab","date":"1978-05-25T00:00:00.000000Z","time":"2024-10-22T10:13:00.000000Z","location":"Repudiandae Nam arch","category":"Ad aperiam maiores p","created_at":"2024-10-22T18:30:14.000000Z","updated_at":"2024-10-22T18:30:14.000000Z","primary_image":null},{"id":12,"title":"Et corrupti adipisi","description":"Quod numquam quo lab","date":"1978-05-25T00:00:00.000000Z","time":"2024-10-22T10:13:00.000000Z","location":"Repudiandae Nam arch","category":"Ad aperiam maiores p","created_at":"2024-10-22T18:30:15.000000Z","updated_at":"2024-10-22T18:30:15.000000Z","primary_image":null}]
+[22-Oct-2024 18:30:18 UTC] Form submitted. POST data: Array
+(
+    [title] => Quaerat impedit dol
+    [description] => Libero non vero in a
+    [date] => 2016-11-17
+    [time] => 15:09
+    [location] => Dolores suscipit qui
+    [category] => Incididunt nostrum h
+    [submit] => Add Event
+)
+
+[22-Oct-2024 18:30:18 UTC] Attempting to add event. Data: Array
+(
+    [title] => Quaerat impedit dol
+    [description] => Libero non vero in a
+    [date] => 2016-11-17
+    [time] => 15:09
+    [location] => Dolores suscipit qui
+    [category] => Incididunt nostrum h
+    [submit] => Add Event
+)
+
+[22-Oct-2024 18:30:18 UTC] API Response Status: 201
+[22-Oct-2024 18:30:18 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"Quaerat impedit dol","description":"Libero non vero in a","date":"2016-11-17T00:00:00.000000Z","time":"2024-10-22T15:09:00.000000Z","location":"Dolores suscipit qui","category":"Incididunt nostrum h","updated_at":"2024-10-22T18:30:18.000000Z","created_at":"2024-10-22T18:30:18.000000Z","id":13}}
+[22-Oct-2024 18:30:21 UTC] API Connection Test Status: 200
+[22-Oct-2024 18:30:21 UTC] API Connection Test Body: [{"id":5,"title":"Voluptatem laborum","description":"In sint officia nes","date":"1996-04-20T00:00:00.000000Z","time":"2024-10-22T14:51:00.000000Z","location":"Ullamco sint alias","category":"Aliquip sint impedit","created_at":"2024-10-22T18:20:59.000000Z","updated_at":"2024-10-22T18:20:59.000000Z","primary_image":null},{"id":6,"title":"Dolores rem ut et an","description":"Sapiente consectetur","date":"2010-01-27T00:00:00.000000Z","time":"2024-10-22T23:15:00.000000Z","location":"Odit commodi in dolo","category":"In incidunt quas de","created_at":"2024-10-22T18:24:43.000000Z","updated_at":"2024-10-22T18:24:43.000000Z","primary_image":null},{"id":7,"title":"Dolores cillum nihil","description":"Deserunt qui deserun","date":"1978-06-24T00:00:00.000000Z","time":"2024-10-22T08:34:00.000000Z","location":"Ut odit recusandae","category":"In modi aut eiusmod","created_at":"2024-10-22T18:24:46.000000Z","updated_at":"2024-10-22T18:24:46.000000Z","primary_image":null},{"id":8,"title":"Aut deserunt sapient","description":"Non aliquid nisi eu","date":"1980-03-18T00:00:00.000000Z","time":"2024-10-22T04:53:00.000000Z","location":"Dolore sed beatae au","category":"Sed ut rem quos id a","created_at":"2024-10-22T18:24:48.000000Z","updated_at":"2024-10-22T18:24:48.000000Z","primary_image":null},{"id":9,"title":"Labore quis nobis am","description":"Praesentium ea enim","date":"2014-12-14T00:00:00.000000Z","time":"2024-10-22T20:16:00.000000Z","location":"Ea reprehenderit deb","category":"Eu enim inventore cu","created_at":"2024-10-22T18:24:51.000000Z","updated_at":"2024-10-22T18:24:51.000000Z","primary_image":null},{"id":10,"title":"Ipsum aut id nostrud","description":"Expedita qui numquam","date":"1976-11-02T00:00:00.000000Z","time":"2024-10-22T10:55:00.000000Z","location":"Dolorem consequat C","category":"Doloremque non nihil","created_at":"2024-10-22T18:24:55.000000Z","updated_at":"2024-10-22T18:24:55.000000Z","primary_image":null},{"id":11,"title":"Et corrupti adipisi","description":"Quod numquam quo lab","date":"1978-05-25T00:00:00.000000Z","time":"2024-10-22T10:13:00.000000Z","location":"Repudiandae Nam arch","category":"Ad aperiam maiores p","created_at":"2024-10-22T18:30:14.000000Z","updated_at":"2024-10-22T18:30:14.000000Z","primary_image":null},{"id":12,"title":"Et corrupti adipisi","description":"Quod numquam quo lab","date":"1978-05-25T00:00:00.000000Z","time":"2024-10-22T10:13:00.000000Z","location":"Repudiandae Nam arch","category":"Ad aperiam maiores p","created_at":"2024-10-22T18:30:15.000000Z","updated_at":"2024-10-22T18:30:15.000000Z","primary_image":null},{"id":13,"title":"Quaerat impedit dol","description":"Libero non vero in a","date":"2016-11-17T00:00:00.000000Z","time":"2024-10-22T15:09:00.000000Z","location":"Dolores suscipit qui","category":"Incididunt nostrum h","created_at":"2024-10-22T18:30:18.000000Z","updated_at":"2024-10-22T18:30:18.000000Z","primary_image":null}]
+[22-Oct-2024 18:30:21 UTC] Form submitted. POST data: Array
+(
+    [title] => Dolore explicabo Qu
+    [description] => Exercitation aut con
+    [date] => 1976-08-22
+    [time] => 17:08
+    [location] => Tempor sit odit in v
+    [category] => Dolores adipisicing 
+    [submit] => Add Event
+)
+
+[22-Oct-2024 18:30:21 UTC] Attempting to add event. Data: Array
+(
+    [title] => Dolore explicabo Qu
+    [description] => Exercitation aut con
+    [date] => 1976-08-22
+    [time] => 17:08
+    [location] => Tempor sit odit in v
+    [category] => Dolores adipisicing 
+    [submit] => Add Event
+)
+
+[22-Oct-2024 18:30:22 UTC] API Response Status: 201
+[22-Oct-2024 18:30:22 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"Dolore explicabo Qu","description":"Exercitation aut con","date":"1976-08-22T00:00:00.000000Z","time":"2024-10-22T17:08:00.000000Z","location":"Tempor sit odit in v","category":"Dolores adipisicing","updated_at":"2024-10-22T18:30:22.000000Z","created_at":"2024-10-22T18:30:22.000000Z","id":14}}
+[22-Oct-2024 18:30:25 UTC] API Connection Test Status: 200
+[22-Oct-2024 18:30:25 UTC] API Connection Test Body: [{"id":5,"title":"Voluptatem laborum","description":"In sint officia nes","date":"1996-04-20T00:00:00.000000Z","time":"2024-10-22T14:51:00.000000Z","location":"Ullamco sint alias","category":"Aliquip sint impedit","created_at":"2024-10-22T18:20:59.000000Z","updated_at":"2024-10-22T18:20:59.000000Z","primary_image":null},{"id":6,"title":"Dolores rem ut et an","description":"Sapiente consectetur","date":"2010-01-27T00:00:00.000000Z","time":"2024-10-22T23:15:00.000000Z","location":"Odit commodi in dolo","category":"In incidunt quas de","created_at":"2024-10-22T18:24:43.000000Z","updated_at":"2024-10-22T18:24:43.000000Z","primary_image":null},{"id":7,"title":"Dolores cillum nihil","description":"Deserunt qui deserun","date":"1978-06-24T00:00:00.000000Z","time":"2024-10-22T08:34:00.000000Z","location":"Ut odit recusandae","category":"In modi aut eiusmod","created_at":"2024-10-22T18:24:46.000000Z","updated_at":"2024-10-22T18:24:46.000000Z","primary_image":null},{"id":8,"title":"Aut deserunt sapient","description":"Non aliquid nisi eu","date":"1980-03-18T00:00:00.000000Z","time":"2024-10-22T04:53:00.000000Z","location":"Dolore sed beatae au","category":"Sed ut rem quos id a","created_at":"2024-10-22T18:24:48.000000Z","updated_at":"2024-10-22T18:24:48.000000Z","primary_image":null},{"id":9,"title":"Labore quis nobis am","description":"Praesentium ea enim","date":"2014-12-14T00:00:00.000000Z","time":"2024-10-22T20:16:00.000000Z","location":"Ea reprehenderit deb","category":"Eu enim inventore cu","created_at":"2024-10-22T18:24:51.000000Z","updated_at":"2024-10-22T18:24:51.000000Z","primary_image":null},{"id":10,"title":"Ipsum aut id nostrud","description":"Expedita qui numquam","date":"1976-11-02T00:00:00.000000Z","time":"2024-10-22T10:55:00.000000Z","location":"Dolorem consequat C","category":"Doloremque non nihil","created_at":"2024-10-22T18:24:55.000000Z","updated_at":"2024-10-22T18:24:55.000000Z","primary_image":null},{"id":11,"title":"Et corrupti adipisi","description":"Quod numquam quo lab","date":"1978-05-25T00:00:00.000000Z","time":"2024-10-22T10:13:00.000000Z","location":"Repudiandae Nam arch","category":"Ad aperiam maiores p","created_at":"2024-10-22T18:30:14.000000Z","updated_at":"2024-10-22T18:30:14.000000Z","primary_image":null},{"id":12,"title":"Et corrupti adipisi","description":"Quod numquam quo lab","date":"1978-05-25T00:00:00.000000Z","time":"2024-10-22T10:13:00.000000Z","location":"Repudiandae Nam arch","category":"Ad aperiam maiores p","created_at":"2024-10-22T18:30:15.000000Z","updated_at":"2024-10-22T18:30:15.000000Z","primary_image":null},{"id":13,"title":"Quaerat impedit dol","description":"Libero non vero in a","date":"2016-11-17T00:00:00.000000Z","time":"2024-10-22T15:09:00.000000Z","location":"Dolores suscipit qui","category":"Incididunt nostrum h","created_at":"2024-10-22T18:30:18.000000Z","updated_at":"2024-10-22T18:30:18.000000Z","primary_image":null},{"id":14,"title":"Dolore explicabo Qu","description":"Exercitation aut con","date":"1976-08-22T00:00:00.000000Z","time":"2024-10-22T17:08:00.000000Z","location":"Tempor sit odit in v","category":"Dolores adipisicing","created_at":"2024-10-22T18:30:22.000000Z","updated_at":"2024-10-22T18:30:22.000000Z","primary_image":null}]
+[22-Oct-2024 18:30:25 UTC] Form submitted. POST data: Array
+(
+    [title] => Saepe omnis iure por
+    [description] => Dolore consectetur 
+    [date] => 2019-08-14
+    [time] => 22:16
+    [location] => Et adipisci reprehen
+    [category] => Labore tempor numqua
+    [submit] => Add Event
+)
+
+[22-Oct-2024 18:30:25 UTC] Attempting to add event. Data: Array
+(
+    [title] => Saepe omnis iure por
+    [description] => Dolore consectetur 
+    [date] => 2019-08-14
+    [time] => 22:16
+    [location] => Et adipisci reprehen
+    [category] => Labore tempor numqua
+    [submit] => Add Event
+)
+
+[22-Oct-2024 18:30:25 UTC] API Response Status: 201
+[22-Oct-2024 18:30:25 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"Saepe omnis iure por","description":"Dolore consectetur","date":"2019-08-14T00:00:00.000000Z","time":"2024-10-22T22:16:00.000000Z","location":"Et adipisci reprehen","category":"Labore tempor numqua","updated_at":"2024-10-22T18:30:25.000000Z","created_at":"2024-10-22T18:30:25.000000Z","id":15}}
+[22-Oct-2024 18:33:21 UTC] PHP Warning:  Undefined array key "image" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 10
+[22-Oct-2024 18:33:21 UTC] PHP Warning:  Undefined array key "image" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 10
+[22-Oct-2024 18:33:21 UTC] PHP Warning:  Undefined array key "image" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 10
+[22-Oct-2024 18:33:21 UTC] PHP Warning:  Undefined array key "image" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 10
+[22-Oct-2024 18:33:21 UTC] PHP Warning:  Undefined array key "image" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 10
+[22-Oct-2024 18:33:21 UTC] PHP Warning:  Undefined array key "image" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 10
+[22-Oct-2024 18:33:21 UTC] PHP Warning:  Undefined array key "image" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 10
+[22-Oct-2024 18:33:21 UTC] PHP Warning:  Undefined array key "image" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 10
+[22-Oct-2024 18:33:21 UTC] PHP Warning:  Undefined array key "image" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 10
+[22-Oct-2024 18:33:21 UTC] PHP Warning:  Undefined array key "image" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 10
+[22-Oct-2024 18:35:32 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:35:32 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:35:32 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:35:32 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:35:32 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:35:32 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:35:32 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:35:32 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:35:32 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:35:32 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:36:12 UTC] API Connection Test Status: 200
+[22-Oct-2024 18:36:12 UTC] API Connection Test Body: [{"id":5,"title":"Voluptatem laborum","description":"In sint officia nes","date":"1996-04-20T00:00:00.000000Z","time":"2024-10-22T14:51:00.000000Z","location":"Ullamco sint alias","category":"Aliquip sint impedit","created_at":"2024-10-22T18:20:59.000000Z","updated_at":"2024-10-22T18:20:59.000000Z","primary_image":null},{"id":6,"title":"Dolores rem ut et an","description":"Sapiente consectetur","date":"2010-01-27T00:00:00.000000Z","time":"2024-10-22T23:15:00.000000Z","location":"Odit commodi in dolo","category":"In incidunt quas de","created_at":"2024-10-22T18:24:43.000000Z","updated_at":"2024-10-22T18:24:43.000000Z","primary_image":null},{"id":7,"title":"Dolores cillum nihil","description":"Deserunt qui deserun","date":"1978-06-24T00:00:00.000000Z","time":"2024-10-22T08:34:00.000000Z","location":"Ut odit recusandae","category":"In modi aut eiusmod","created_at":"2024-10-22T18:24:46.000000Z","updated_at":"2024-10-22T18:24:46.000000Z","primary_image":null},{"id":8,"title":"Aut deserunt sapient","description":"Non aliquid nisi eu","date":"1980-03-18T00:00:00.000000Z","time":"2024-10-22T04:53:00.000000Z","location":"Dolore sed beatae au","category":"Sed ut rem quos id a","created_at":"2024-10-22T18:24:48.000000Z","updated_at":"2024-10-22T18:24:48.000000Z","primary_image":null},{"id":9,"title":"Labore quis nobis am","description":"Praesentium ea enim","date":"2014-12-14T00:00:00.000000Z","time":"2024-10-22T20:16:00.000000Z","location":"Ea reprehenderit deb","category":"Eu enim inventore cu","created_at":"2024-10-22T18:24:51.000000Z","updated_at":"2024-10-22T18:24:51.000000Z","primary_image":null},{"id":10,"title":"Ipsum aut id nostrud","description":"Expedita qui numquam","date":"1976-11-02T00:00:00.000000Z","time":"2024-10-22T10:55:00.000000Z","location":"Dolorem consequat C","category":"Doloremque non nihil","created_at":"2024-10-22T18:24:55.000000Z","updated_at":"2024-10-22T18:24:55.000000Z","primary_image":null},{"id":11,"title":"Et corrupti adipisi","description":"Quod numquam quo lab","date":"1978-05-25T00:00:00.000000Z","time":"2024-10-22T10:13:00.000000Z","location":"Repudiandae Nam arch","category":"Ad aperiam maiores p","created_at":"2024-10-22T18:30:14.000000Z","updated_at":"2024-10-22T18:30:14.000000Z","primary_image":null},{"id":12,"title":"Et corrupti adipisi","description":"Quod numquam quo lab","date":"1978-05-25T00:00:00.000000Z","time":"2024-10-22T10:13:00.000000Z","location":"Repudiandae Nam arch","category":"Ad aperiam maiores p","created_at":"2024-10-22T18:30:15.000000Z","updated_at":"2024-10-22T18:30:15.000000Z","primary_image":null},{"id":13,"title":"Quaerat impedit dol","description":"Libero non vero in a","date":"2016-11-17T00:00:00.000000Z","time":"2024-10-22T15:09:00.000000Z","location":"Dolores suscipit qui","category":"Incididunt nostrum h","created_at":"2024-10-22T18:30:18.000000Z","updated_at":"2024-10-22T18:30:18.000000Z","primary_image":null},{"id":14,"title":"Dolore explicabo Qu","description":"Exercitation aut con","date":"1976-08-22T00:00:00.000000Z","time":"2024-10-22T17:08:00.000000Z","location":"Tempor sit odit in v","category":"Dolores adipisicing","created_at":"2024-10-22T18:30:22.000000Z","updated_at":"2024-10-22T18:30:22.000000Z","primary_image":null},{"id":15,"title":"Saepe omnis iure por","description":"Dolore consectetur","date":"2019-08-14T00:00:00.000000Z","time":"2024-10-22T22:16:00.000000Z","location":"Et adipisci reprehen","category":"Labore tempor numqua","created_at":"2024-10-22T18:30:25.000000Z","updated_at":"2024-10-22T18:30:25.000000Z","primary_image":null}]
+[22-Oct-2024 18:36:12 UTC] Form submitted. POST data: Array
+(
+    [title] => title of the event 
+    [description] => description of the event 
+    [date] => 2024-10-25
+    [time] => 00:36
+    [location] => Sylhet
+    [category] => moon light
+    [submit] => Add Event
+)
+
+[22-Oct-2024 18:36:12 UTC] Attempting to add event. Data: Array
+(
+    [title] => title of the event 
+    [description] => description of the event 
+    [date] => 2024-10-25
+    [time] => 00:36
+    [location] => Sylhet
+    [category] => moon light
+    [submit] => Add Event
+)
+
+[22-Oct-2024 18:36:13 UTC] API Response Status: 201
+[22-Oct-2024 18:36:13 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"title of the event","description":"description of the event","date":"2024-10-25T00:00:00.000000Z","time":"2024-10-22T00:36:00.000000Z","location":"Sylhet","category":"moon light","updated_at":"2024-10-22T18:36:13.000000Z","created_at":"2024-10-22T18:36:13.000000Z","id":16}}
+[22-Oct-2024 18:36:14 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:36:14 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:36:14 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:36:14 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:36:14 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:36:14 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:36:14 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:36:14 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:36:14 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:36:14 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:36:27 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:36:27 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:36:46 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:36:46 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:36:49 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:36:49 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:36:55 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:36:55 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:39:10 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 18:39:10 UTC] PHP Warning:  Undefined array key "place" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[22-Oct-2024 19:02:19 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:115
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(115): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list lim...')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list lim...')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(387): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#9 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#15 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 115
+[22-Oct-2024 19:02:22 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:115
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(115): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list lim...')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list lim...')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(387): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#9 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#15 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 115
+[22-Oct-2024 19:02:44 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:115
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(115): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list lim...')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list lim...')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(387): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#9 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#15 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 115
+[22-Oct-2024 19:02:48 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:115
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(115): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list ]')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list ]')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(387): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#9 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#15 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 115
+[22-Oct-2024 19:02:49 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:115
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(115): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list]')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list]')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(387): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#9 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#15 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 115
+[22-Oct-2024 19:02:58 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:115
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(115): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list]')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list]')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(387): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#9 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#15 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 115
+[22-Oct-2024 19:03:11 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:115
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(115): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list]')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list]')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(759): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\element-base.php(618): Elementor\Widget_Base->get_raw_data(true)
+#9 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(1085): Elementor\Element_Base->get_raw_data(true)
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(738): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(1070): Elementor\Core\Base\Document->get_initial_config()
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\editor\loader\common\editor-common-scripts-settings.php(38): Elementor\Controls_Stack->get_config()
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\editor\loader\v2\editor-v2-loader.php(144): Elementor\Core\Editor\Loader\Common\Editor_Common_Scripts_Settings::get()
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\editor\editor.php(364): Elementor\Core\Editor\Loader\V2\Editor_V2_Loader->enqueue_scripts()
+#15 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Editor\Editor->enqueue_scripts('')
+#16 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\script-loader.php(2263): do_action('wp_enqueue_scri...')
+#19 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#20 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#21 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#22 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\general-template.php(3065): do_action('wp_head')
+#23 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php(31): wp_head()
+#24 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\editor\loader\v2\editor-v2-loader.php(194): include('C:\\Users\\tahmid...')
+#25 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\editor\editor.php(169): Elementor\Core\Editor\Loader\V2\Editor_V2_Loader->print_root_template()
+#26 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Editor\Editor->init('')
+#27 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#28 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#29 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin.php(419): do_action('admin_action_el...')
+#30 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\post.php(12): require_once('C:\\Users\\tahmid...')
+#31 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 115
+[22-Oct-2024 19:03:19 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:115
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(115): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list]')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list]')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(759): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\element-base.php(618): Elementor\Widget_Base->get_raw_data(true)
+#9 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(1085): Elementor\Element_Base->get_raw_data(true)
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(738): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(1070): Elementor\Core\Base\Document->get_initial_config()
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\editor\loader\common\editor-common-scripts-settings.php(38): Elementor\Controls_Stack->get_config()
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\editor\loader\v2\editor-v2-loader.php(144): Elementor\Core\Editor\Loader\Common\Editor_Common_Scripts_Settings::get()
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\editor\editor.php(364): Elementor\Core\Editor\Loader\V2\Editor_V2_Loader->enqueue_scripts()
+#15 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Editor\Editor->enqueue_scripts('')
+#16 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\script-loader.php(2263): do_action('wp_enqueue_scri...')
+#19 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#20 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#21 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#22 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\general-template.php(3065): do_action('wp_head')
+#23 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php(31): wp_head()
+#24 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\editor\loader\v2\editor-v2-loader.php(194): include('C:\\Users\\tahmid...')
+#25 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\editor\editor.php(169): Elementor\Core\Editor\Loader\V2\Editor_V2_Loader->print_root_template()
+#26 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Editor\Editor->init('')
+#27 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#28 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#29 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin.php(419): do_action('admin_action_el...')
+#30 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\post.php(12): require_once('C:\\Users\\tahmid...')
+#31 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 115
+[22-Oct-2024 19:05:50 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:115
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(115): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list]')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list]')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(387): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#9 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#15 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 115
+[22-Oct-2024 19:05:51 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:115
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(115): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list lim...')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list lim...')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(387): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#9 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#15 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 115
+[22-Oct-2024 19:05:55 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:115
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(115): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list lim...')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list lim...')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(387): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#9 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#15 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 115
+[22-Oct-2024 19:06:02 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:115
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(115): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list ]')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list ]')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(387): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#9 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#15 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 115
+[22-Oct-2024 19:06:03 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:115
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(115): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list l]')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list l]')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(387): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#9 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#15 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 115
+[22-Oct-2024 19:06:05 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:115
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(115): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list lim...')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list lim...')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(387): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#9 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#15 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 115
+[22-Oct-2024 19:06:06 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:115
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(115): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list lim...')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list lim...')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(387): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#9 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#15 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 115
+[22-Oct-2024 19:06:08 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:115
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(115): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list lim...')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list lim...')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(387): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#9 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#15 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 115
+[22-Oct-2024 19:06:09 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:115
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(115): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list lim...')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list lim...')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(387): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#9 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#15 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 115
+[22-Oct-2024 19:06:13 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:115
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(115): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '<h2>All events<...')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): do_shortcode('<h2>All events<...')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<h2>All events<...', Array)
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\post-template.php(256): apply_filters('the_content', '<h2>All events<...')
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\template-parts\single\content-header.php(37): the_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(812): require('C:\\Users\\tahmid...')
+#9 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(745): load_template('C:\\Users\\tahmid...', false, Array)
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\template-parts.php(376): get_template_part('template-parts/...')
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): astra_entry_content_single_page_template('')
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#15 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\core\theme-hooks.php(452): do_action('astra_entry_con...')
+#16 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\template-parts\content-page.php(26): astra_entry_content_single_page()
+#17 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(812): require('C:\\Users\\tahmid...')
+#18 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(745): load_template('C:\\Users\\tahmid...', false, Array)
+#19 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#20 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(111): get_template_part('template-parts/...', 'page')
+#21 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Astra_Loop->template_parts_page('')
+#22 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#23 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#24 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(199): do_action('astra_page_temp...')
+#25 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(176): Astra_Loop->loop_markup(true)
+#26 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Astra_Loop->loop_markup_page('')
+#27 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#28 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#29 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\core\theme-hooks.php(267): do_action('astra_content_p...')
+#30 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\page.php(32): astra_content_page_loop()
+#31 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\tahmid...')
+#32 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-blog-header.php(19): require_once('C:\\Users\\tahmid...')
+#33 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\index.php(17): require('C:\\Users\\tahmid...')
+#34 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 115
+[22-Oct-2024 19:06:16 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:115
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(115): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '<h2>All events<...')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): do_shortcode('<h2>All events<...')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<h2>All events<...', Array)
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\post-template.php(256): apply_filters('the_content', '<h2>All events<...')
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\template-parts\single\content-header.php(37): the_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(812): require('C:\\Users\\tahmid...')
+#9 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(745): load_template('C:\\Users\\tahmid...', false, Array)
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\template-parts.php(376): get_template_part('template-parts/...')
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): astra_entry_content_single_page_template('')
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#15 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\core\theme-hooks.php(452): do_action('astra_entry_con...')
+#16 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\template-parts\content-page.php(26): astra_entry_content_single_page()
+#17 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(812): require('C:\\Users\\tahmid...')
+#18 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(745): load_template('C:\\Users\\tahmid...', false, Array)
+#19 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#20 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(111): get_template_part('template-parts/...', 'page')
+#21 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Astra_Loop->template_parts_page('')
+#22 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#23 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#24 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(199): do_action('astra_page_temp...')
+#25 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(176): Astra_Loop->loop_markup(true)
+#26 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Astra_Loop->loop_markup_page('')
+#27 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#28 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#29 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\core\theme-hooks.php(267): do_action('astra_content_p...')
+#30 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\page.php(32): astra_content_page_loop()
+#31 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\tahmid...')
+#32 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-blog-header.php(19): require_once('C:\\Users\\tahmid...')
+#33 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\index.php(17): require('C:\\Users\\tahmid...')
+#34 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 115
+[22-Oct-2024 19:06:30 UTC] PHP Fatal error:  Uncaught TypeError: usort(): Argument #1 ($array) must be of type array, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php:115
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(115): usort(NULL, Object(Closure))
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list]')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list]')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(759): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\element-base.php(618): Elementor\Widget_Base->get_raw_data(true)
+#9 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(1085): Elementor\Element_Base->get_raw_data(true)
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(738): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#11 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(1070): Elementor\Core\Base\Document->get_initial_config()
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\editor\loader\common\editor-common-scripts-settings.php(38): Elementor\Controls_Stack->get_config()
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\editor\loader\v2\editor-v2-loader.php(144): Elementor\Core\Editor\Loader\Common\Editor_Common_Scripts_Settings::get()
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\editor\editor.php(364): Elementor\Core\Editor\Loader\V2\Editor_V2_Loader->enqueue_scripts()
+#15 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Editor\Editor->enqueue_scripts('')
+#16 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\script-loader.php(2263): do_action('wp_enqueue_scri...')
+#19 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#20 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#21 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#22 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\general-template.php(3065): do_action('wp_head')
+#23 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php(31): wp_head()
+#24 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\editor\loader\v2\editor-v2-loader.php(194): include('C:\\Users\\tahmid...')
+#25 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\editor\editor.php(169): Elementor\Core\Editor\Loader\V2\Editor_V2_Loader->print_root_template()
+#26 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Editor\Editor->init('')
+#27 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#28 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#29 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\admin.php(419): do_action('admin_action_el...')
+#30 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-admin\post.php(12): require_once('C:\\Users\\tahmid...')
+#31 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 115
+[22-Oct-2024 20:53:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\script-loader.php:2936) in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\pluggable.php on line 1435
+[22-Oct-2024 20:53:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\script-loader.php:2936) in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\pluggable.php on line 1438
+[22-Oct-2024 21:16:29 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:16:31 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:16:34 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:16:50 UTC] API Connection Test Status: 200
+[22-Oct-2024 21:16:50 UTC] API Connection Test Body: [{"id":16,"title":"title of the event","description":"description of the event","date":"2024-10-25T00:00:00.000000Z","time":"2024-10-22T00:36:00.000000Z","location":"Sylhet","category":"moon light","created_at":"2024-10-22T18:36:13.000000Z","updated_at":"2024-10-22T18:36:13.000000Z","primary_image":null}]
+[22-Oct-2024 21:16:53 UTC] API Connection Test Status: 200
+[22-Oct-2024 21:16:53 UTC] API Connection Test Body: [{"id":16,"title":"title of the event","description":"description of the event","date":"2024-10-25T00:00:00.000000Z","time":"2024-10-22T00:36:00.000000Z","location":"Sylhet","category":"moon light","created_at":"2024-10-22T18:36:13.000000Z","updated_at":"2024-10-22T18:36:13.000000Z","primary_image":null}]
+[22-Oct-2024 21:16:53 UTC] Form submitted. POST data: Array
+(
+    [title] => Ullamco dolor dicta 
+    [description] => Accusantium incidunt
+    [date] => 1983-07-03
+    [time] => 07:05
+    [location] => Incididunt ipsum ad
+    [category] => Quam pariatur Qui s
+    [submit] => Add Event
+)
+
+[22-Oct-2024 21:16:53 UTC] Attempting to add event. Data: Array
+(
+    [title] => Ullamco dolor dicta 
+    [description] => Accusantium incidunt
+    [date] => 1983-07-03
+    [time] => 07:05
+    [location] => Incididunt ipsum ad
+    [category] => Quam pariatur Qui s
+    [submit] => Add Event
+)
+
+[22-Oct-2024 21:16:54 UTC] API Response Status: 201
+[22-Oct-2024 21:16:54 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"Ullamco dolor dicta","description":"Accusantium incidunt","date":"1983-07-03T00:00:00.000000Z","time":"2024-10-22T07:05:00.000000Z","location":"Incididunt ipsum ad","category":"Quam pariatur Qui s","updated_at":"2024-10-22T21:16:54.000000Z","created_at":"2024-10-22T21:16:54.000000Z","id":17}}
+[22-Oct-2024 21:16:58 UTC] API Connection Test Status: 200
+[22-Oct-2024 21:16:58 UTC] API Connection Test Body: [{"id":16,"title":"title of the event","description":"description of the event","date":"2024-10-25T00:00:00.000000Z","time":"2024-10-22T00:36:00.000000Z","location":"Sylhet","category":"moon light","created_at":"2024-10-22T18:36:13.000000Z","updated_at":"2024-10-22T18:36:13.000000Z","primary_image":null},{"id":17,"title":"Ullamco dolor dicta","description":"Accusantium incidunt","date":"1983-07-03T00:00:00.000000Z","time":"2024-10-22T07:05:00.000000Z","location":"Incididunt ipsum ad","category":"Quam pariatur Qui s","created_at":"2024-10-22T21:16:54.000000Z","updated_at":"2024-10-22T21:16:54.000000Z","primary_image":null}]
+[22-Oct-2024 21:16:58 UTC] Form submitted. POST data: Array
+(
+    [title] => Ea dolor sequi aut v
+    [description] => Laborum culpa Nam a
+    [date] => 1991-04-24
+    [time] => 08:33
+    [location] => Excepteur ullam anim
+    [category] => Omnis amet assumend
+    [submit] => Add Event
+)
+
+[22-Oct-2024 21:16:58 UTC] Attempting to add event. Data: Array
+(
+    [title] => Ea dolor sequi aut v
+    [description] => Laborum culpa Nam a
+    [date] => 1991-04-24
+    [time] => 08:33
+    [location] => Excepteur ullam anim
+    [category] => Omnis amet assumend
+    [submit] => Add Event
+)
+
+[22-Oct-2024 21:16:58 UTC] API Response Status: 201
+[22-Oct-2024 21:16:58 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"Ea dolor sequi aut v","description":"Laborum culpa Nam a","date":"1991-04-24T00:00:00.000000Z","time":"2024-10-22T08:33:00.000000Z","location":"Excepteur ullam anim","category":"Omnis amet assumend","updated_at":"2024-10-22T21:16:58.000000Z","created_at":"2024-10-22T21:16:58.000000Z","id":18}}
+[22-Oct-2024 21:17:00 UTC] API Connection Test Status: 200
+[22-Oct-2024 21:17:00 UTC] API Connection Test Body: [{"id":16,"title":"title of the event","description":"description of the event","date":"2024-10-25T00:00:00.000000Z","time":"2024-10-22T00:36:00.000000Z","location":"Sylhet","category":"moon light","created_at":"2024-10-22T18:36:13.000000Z","updated_at":"2024-10-22T18:36:13.000000Z","primary_image":null},{"id":17,"title":"Ullamco dolor dicta","description":"Accusantium incidunt","date":"1983-07-03T00:00:00.000000Z","time":"2024-10-22T07:05:00.000000Z","location":"Incididunt ipsum ad","category":"Quam pariatur Qui s","created_at":"2024-10-22T21:16:54.000000Z","updated_at":"2024-10-22T21:16:54.000000Z","primary_image":null},{"id":18,"title":"Ea dolor sequi aut v","description":"Laborum culpa Nam a","date":"1991-04-24T00:00:00.000000Z","time":"2024-10-22T08:33:00.000000Z","location":"Excepteur ullam anim","category":"Omnis amet assumend","created_at":"2024-10-22T21:16:58.000000Z","updated_at":"2024-10-22T21:16:58.000000Z","primary_image":null}]
+[22-Oct-2024 21:17:00 UTC] Form submitted. POST data: Array
+(
+    [title] => In magna irure omnis
+    [description] => Et est harum ex labo
+    [date] => 2006-08-10
+    [time] => 06:32
+    [location] => Lorem sint tempora 
+    [category] => Odit voluptatibus vo
+    [submit] => Add Event
+)
+
+[22-Oct-2024 21:17:00 UTC] Attempting to add event. Data: Array
+(
+    [title] => In magna irure omnis
+    [description] => Et est harum ex labo
+    [date] => 2006-08-10
+    [time] => 06:32
+    [location] => Lorem sint tempora 
+    [category] => Odit voluptatibus vo
+    [submit] => Add Event
+)
+
+[22-Oct-2024 21:17:00 UTC] API Response Status: 201
+[22-Oct-2024 21:17:00 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"In magna irure omnis","description":"Et est harum ex labo","date":"2006-08-10T00:00:00.000000Z","time":"2024-10-22T06:32:00.000000Z","location":"Lorem sint tempora","category":"Odit voluptatibus vo","updated_at":"2024-10-22T21:17:00.000000Z","created_at":"2024-10-22T21:17:00.000000Z","id":19}}
+[22-Oct-2024 21:17:02 UTC] API Connection Test Status: 200
+[22-Oct-2024 21:17:02 UTC] API Connection Test Body: [{"id":16,"title":"title of the event","description":"description of the event","date":"2024-10-25T00:00:00.000000Z","time":"2024-10-22T00:36:00.000000Z","location":"Sylhet","category":"moon light","created_at":"2024-10-22T18:36:13.000000Z","updated_at":"2024-10-22T18:36:13.000000Z","primary_image":null},{"id":17,"title":"Ullamco dolor dicta","description":"Accusantium incidunt","date":"1983-07-03T00:00:00.000000Z","time":"2024-10-22T07:05:00.000000Z","location":"Incididunt ipsum ad","category":"Quam pariatur Qui s","created_at":"2024-10-22T21:16:54.000000Z","updated_at":"2024-10-22T21:16:54.000000Z","primary_image":null},{"id":18,"title":"Ea dolor sequi aut v","description":"Laborum culpa Nam a","date":"1991-04-24T00:00:00.000000Z","time":"2024-10-22T08:33:00.000000Z","location":"Excepteur ullam anim","category":"Omnis amet assumend","created_at":"2024-10-22T21:16:58.000000Z","updated_at":"2024-10-22T21:16:58.000000Z","primary_image":null},{"id":19,"title":"In magna irure omnis","description":"Et est harum ex labo","date":"2006-08-10T00:00:00.000000Z","time":"2024-10-22T06:32:00.000000Z","location":"Lorem sint tempora","category":"Odit voluptatibus vo","created_at":"2024-10-22T21:17:00.000000Z","updated_at":"2024-10-22T21:17:00.000000Z","primary_image":null}]
+[22-Oct-2024 21:17:02 UTC] Form submitted. POST data: Array
+(
+    [title] => Numquam sint sint e
+    [description] => Ut aspernatur aliqui
+    [date] => 1981-01-17
+    [time] => 16:36
+    [location] => Voluptate laborum A
+    [category] => Voluptas sapiente te
+    [submit] => Add Event
+)
+
+[22-Oct-2024 21:17:02 UTC] Attempting to add event. Data: Array
+(
+    [title] => Numquam sint sint e
+    [description] => Ut aspernatur aliqui
+    [date] => 1981-01-17
+    [time] => 16:36
+    [location] => Voluptate laborum A
+    [category] => Voluptas sapiente te
+    [submit] => Add Event
+)
+
+[22-Oct-2024 21:17:02 UTC] API Response Status: 201
+[22-Oct-2024 21:17:02 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"Numquam sint sint e","description":"Ut aspernatur aliqui","date":"1981-01-17T00:00:00.000000Z","time":"2024-10-22T16:36:00.000000Z","location":"Voluptate laborum A","category":"Voluptas sapiente te","updated_at":"2024-10-22T21:17:02.000000Z","created_at":"2024-10-22T21:17:02.000000Z","id":20}}
+[22-Oct-2024 21:17:04 UTC] API Connection Test Status: 200
+[22-Oct-2024 21:17:04 UTC] API Connection Test Body: [{"id":16,"title":"title of the event","description":"description of the event","date":"2024-10-25T00:00:00.000000Z","time":"2024-10-22T00:36:00.000000Z","location":"Sylhet","category":"moon light","created_at":"2024-10-22T18:36:13.000000Z","updated_at":"2024-10-22T18:36:13.000000Z","primary_image":null},{"id":17,"title":"Ullamco dolor dicta","description":"Accusantium incidunt","date":"1983-07-03T00:00:00.000000Z","time":"2024-10-22T07:05:00.000000Z","location":"Incididunt ipsum ad","category":"Quam pariatur Qui s","created_at":"2024-10-22T21:16:54.000000Z","updated_at":"2024-10-22T21:16:54.000000Z","primary_image":null},{"id":18,"title":"Ea dolor sequi aut v","description":"Laborum culpa Nam a","date":"1991-04-24T00:00:00.000000Z","time":"2024-10-22T08:33:00.000000Z","location":"Excepteur ullam anim","category":"Omnis amet assumend","created_at":"2024-10-22T21:16:58.000000Z","updated_at":"2024-10-22T21:16:58.000000Z","primary_image":null},{"id":19,"title":"In magna irure omnis","description":"Et est harum ex labo","date":"2006-08-10T00:00:00.000000Z","time":"2024-10-22T06:32:00.000000Z","location":"Lorem sint tempora","category":"Odit voluptatibus vo","created_at":"2024-10-22T21:17:00.000000Z","updated_at":"2024-10-22T21:17:00.000000Z","primary_image":null},{"id":20,"title":"Numquam sint sint e","description":"Ut aspernatur aliqui","date":"1981-01-17T00:00:00.000000Z","time":"2024-10-22T16:36:00.000000Z","location":"Voluptate laborum A","category":"Voluptas sapiente te","created_at":"2024-10-22T21:17:02.000000Z","updated_at":"2024-10-22T21:17:02.000000Z","primary_image":null}]
+[22-Oct-2024 21:17:04 UTC] Form submitted. POST data: Array
+(
+    [title] => Sapiente deserunt la
+    [description] => Officiis omnis Nam e
+    [date] => 2007-01-25
+    [time] => 20:54
+    [location] => Aut tempora vitae qu
+    [category] => Nostrum numquam sapi
+    [submit] => Add Event
+)
+
+[22-Oct-2024 21:17:04 UTC] Attempting to add event. Data: Array
+(
+    [title] => Sapiente deserunt la
+    [description] => Officiis omnis Nam e
+    [date] => 2007-01-25
+    [time] => 20:54
+    [location] => Aut tempora vitae qu
+    [category] => Nostrum numquam sapi
+    [submit] => Add Event
+)
+
+[22-Oct-2024 21:17:04 UTC] API Response Status: 201
+[22-Oct-2024 21:17:04 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"Sapiente deserunt la","description":"Officiis omnis Nam e","date":"2007-01-25T00:00:00.000000Z","time":"2024-10-22T20:54:00.000000Z","location":"Aut tempora vitae qu","category":"Nostrum numquam sapi","updated_at":"2024-10-22T21:17:04.000000Z","created_at":"2024-10-22T21:17:04.000000Z","id":21}}
+[22-Oct-2024 21:17:07 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:17:07 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:17:07 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:17:07 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:17:07 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:17:07 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:17:16 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:17:16 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:17:16 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:17:16 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:17:16 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:17:16 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:23:31 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:23:31 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:23:31 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:23:31 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:23:31 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:23:31 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:34:25 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 8
+[22-Oct-2024 21:34:25 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 9
+[22-Oct-2024 21:34:25 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 10
+[22-Oct-2024 21:34:25 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 11
+[22-Oct-2024 21:34:25 UTC] PHP Warning:  Undefined variable $categories in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 17
+[22-Oct-2024 21:34:25 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 17
+[22-Oct-2024 21:34:47 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 8
+[22-Oct-2024 21:34:47 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 9
+[22-Oct-2024 21:34:47 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 10
+[22-Oct-2024 21:34:47 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 11
+[22-Oct-2024 21:34:47 UTC] PHP Warning:  Undefined variable $categories in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 17
+[22-Oct-2024 21:34:47 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 17
+[22-Oct-2024 21:35:35 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 8
+[22-Oct-2024 21:35:35 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 9
+[22-Oct-2024 21:35:35 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 10
+[22-Oct-2024 21:35:35 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 11
+[22-Oct-2024 21:35:35 UTC] PHP Warning:  Undefined variable $categories in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 17
+[22-Oct-2024 21:35:35 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 17
+[22-Oct-2024 21:35:51 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 8
+[22-Oct-2024 21:35:51 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 9
+[22-Oct-2024 21:35:51 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 10
+[22-Oct-2024 21:35:51 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 11
+[22-Oct-2024 21:35:51 UTC] PHP Warning:  Undefined variable $categories in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 17
+[22-Oct-2024 21:35:51 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 17
+[22-Oct-2024 21:35:55 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 8
+[22-Oct-2024 21:35:55 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 9
+[22-Oct-2024 21:35:55 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 10
+[22-Oct-2024 21:35:55 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 11
+[22-Oct-2024 21:35:55 UTC] PHP Warning:  Undefined variable $categories in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 17
+[22-Oct-2024 21:35:55 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 17
+[22-Oct-2024 21:36:00 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 8
+[22-Oct-2024 21:36:00 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 9
+[22-Oct-2024 21:36:00 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 10
+[22-Oct-2024 21:36:00 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 11
+[22-Oct-2024 21:36:00 UTC] PHP Warning:  Undefined variable $categories in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 17
+[22-Oct-2024 21:36:00 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 17
+[22-Oct-2024 21:36:15 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:36:15 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:36:15 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:36:15 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:36:15 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[22-Oct-2024 21:36:15 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
