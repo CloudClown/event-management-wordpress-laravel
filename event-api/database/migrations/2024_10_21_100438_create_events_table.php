@@ -16,10 +16,10 @@ return new class extends Migration
             $table->time('time');
             $table->string('location');
             $table->string('category');
-            $table->string('primary_image')->nullable();
             $table->timestamps();
         });
     }
+    
 
     public function down()
     {
