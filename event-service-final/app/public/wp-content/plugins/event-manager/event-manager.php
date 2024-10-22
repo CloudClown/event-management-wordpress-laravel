@@ -17,3 +17,5 @@ require_once(plugin_dir_path(__FILE__) . 'includes/event-functions.php');
 
 // Add action to create admin menu
 add_action('admin_menu', 'em_create_admin_menu');
+
+define('LARAVEL_APP_URL', 'http://localhost:8000');

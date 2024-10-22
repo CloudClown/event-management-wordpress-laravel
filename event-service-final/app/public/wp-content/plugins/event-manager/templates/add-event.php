@@ -8,7 +8,7 @@
     }
     ?>
 
-    <form method="post" action="">
+    <form method="post" action="" enctype="multipart/form-data">
         <table class="form-table">
             <tr>
                 <th><label for="title">Title</label></th>
@@ -34,14 +34,24 @@
                 <th><label for="category">Category</label></th>
                 <td><input type="text" name="category" id="category" class="regular-text" required></td>
             </tr>
+            <tr>
+                <th><label for="primary_image">Primary Image</label></th>
+                <td><input type="file" name="primary_image" id="primary_image" accept="image/*" required></td>
+            </tr>
+            <tr>
+                <th><label for="gallery_images">Gallery Images</label></th>
+                <td><input type="file" name="gallery_images[]" id="gallery_images" accept="image/*" multiple></td>
+            </tr>
         </table>
+        <?php wp_nonce_field('add_event_action', 'add_event_nonce'); ?>
         <?php submit_button('Add Event'); ?>
     </form>
 </div>
 
 <?php
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add_event_nonce']) && wp_verify_nonce($_POST['add_event_nonce'], 'add_event_action')) {
     error_log('Form submitted. POST data: ' . print_r($_POST, true));
+    error_log('Form submitted. FILES data: ' . print_r($_FILES, true));
     
     $result = em_add_event($_POST);
     if ($result) {
