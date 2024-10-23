@@ -44,6 +44,10 @@ function em_add_event($event_data)
 {
     $api_url = 'http://localhost:8000/api/v1/events';
 
+    // Format date and time
+    $event_data['date'] = date('Y-m-d', strtotime($event_data['date']));
+    $event_data['time'] = date('H:i:s', strtotime($event_data['time']));
+
     error_log('Attempting to add event. Data: ' . print_r($event_data, true));
 
     $response = wp_remote_post($api_url, array(
@@ -74,6 +78,10 @@ function em_add_event($event_data)
 function em_update_event($event_id, $event_data)
 {
     $api_url = 'http://localhost:8000/api/v1/events/' . $event_id;
+
+    // Format date and time
+    $event_data['date'] = date('Y-m-d', strtotime($event_data['date']));
+    $event_data['time'] = date('H:i:s', strtotime($event_data['time']));
 
     $response = wp_remote_request($api_url, array(
         'method' => 'PUT',

@@ -212,3 +212,28 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+.event-list-filter-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.event-list-filter-form select,
+.event-list-filter-form input[type="submit"] {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.event-list-filter-form input[type="submit"] {
+    background-color: #0073aa;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.event-list-filter-form input[type="submit"]:hover {
+    background-color: #005177;
+}

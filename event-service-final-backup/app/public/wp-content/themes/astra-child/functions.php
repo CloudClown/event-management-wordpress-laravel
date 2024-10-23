@@ -92,11 +92,12 @@ function event_detail_cards_all_shortcode($atts)
 
 add_shortcode('event_all_cards', 'event_detail_cards_all_shortcode');
 
+
 function event_list_shortcode($atts)
 {
     $atts = shortcode_atts(array(
         'category' => '',
-        'sort' => 'date',
+        'sort' => 'date_desc',
         'view' => 'grid',
         'per_page' => 10,
         'paged' => get_query_var('paged') ? get_query_var('paged') : 1,
@@ -105,10 +106,6 @@ function event_list_shortcode($atts)
 
     // Fetch events from your API
     $api_url = 'http://localhost:8000/api/v1/events';
-    if (!empty($atts['category'])) {
-        $api_url .= '/category/' . $atts['category'];
-    }
-
     $response = wp_remote_get($api_url);
 
     if (is_wp_error($response)) {
@@ -121,20 +118,30 @@ function event_list_shortcode($atts)
         return "No events found or invalid response from API.";
     }
 
-    // Sort events
-    if ($atts['sort'] === 'date') {
-        usort($events, function ($a, $b) {
-            return strtotime($a['date']) - strtotime($b['date']);
+    // Extract unique categories from events
+    $categories = array_unique(array_column($events, 'category'));
+
+    // Apply category filter if set
+    if (!empty($_GET['category'])) {
+        $events = array_filter($events, function ($event) {
+            return isset($event['category']) && $event['category'] == $_GET['category'];
         });
     }
 
-    // Apply limit
+    // Sort events
+    $sort_order = isset($_GET['sort']) ? $_GET['sort'] : $atts['sort'];
+    usort($events, function ($a, $b) use ($sort_order) {
+        return ($sort_order === 'date_asc')
+            ? strtotime($a['date']) - strtotime($b['date'])
+            : strtotime($b['date']) - strtotime($a['date']);
+    });
+
+    // Apply limit and pagination
+    $total_events = count($events);
     if ($atts['limit'] > 0) {
         $events = array_slice($events, 0, $atts['limit']);
-        $total_events = count($events);
         $total_pages = 1;
     } else {
-        $total_events = count($events);
         $total_pages = ceil($total_events / $atts['per_page']);
         $offset = ($atts['paged'] - 1) * $atts['per_page'];
         $events = array_slice($events, $offset, $atts['per_page']);
@@ -143,9 +150,111 @@ function event_list_shortcode($atts)
     // Start output buffering
     ob_start();
 
-    // Include the template
-    include(get_stylesheet_directory() . '/templates/event-list-template.php');
+    // Output CSS
+    echo '<style>';
+    include(get_stylesheet_directory() . '/css/event-list.css');
+    echo '</style>';
 
+?>
+    <div class="event-list-container">
+        <div class="event-list-card">
+            <?php if ($atts['limit'] <= 0): ?>
+                <!-- Only show filters and toggle when there's no specific limit -->
+                <form method="get" action="" class="event-list-filter-form">
+                    <select name="category">
+                        <option value="">All Categories</option>
+                        <?php foreach ($categories as $category): ?>
+                            <option value="<?php echo esc_attr($category); ?>" <?php selected(isset($_GET['category']) ? $_GET['category'] : '', $category); ?>>
+                                <?php echo esc_html($category); ?>
+                            </option>
+                        <?php endforeach; ?>
+                    </select>
+                    <select name="sort">
+                        <option value="date_desc" <?php selected($sort_order, 'date_desc'); ?>>Most Recent to Oldest</option>
+                        <option value="date_asc" <?php selected($sort_order, 'date_asc'); ?>>Oldest to Most Recent</option>
+                    </select>
+                    <input type="submit" value="Filter">
+                </form>
+
+                <div class="event-list-toggle">
+                    <button class="event-list-toggle-btn active" data-view="grid">&#9783; Grid</button>
+                    <button class="event-list-toggle-btn" data-view="list">&#9776; List</button>
+                </div>
+            <?php endif; ?>
+
+            <div class="event-list-items" data-view="grid">
+                <?php foreach ($events as $event):
+                    $date = new DateTime($event['date']);
+                    $time = new DateTime($event['time']);
+                ?>
+                    <div class="event-list-item">
+                        <div class="event-list-image" style="background-image: url('<?php echo esc_url($event['image_url'] ?? ''); ?>');">
+                            <div class="event-list-overlay">
+                                <div class="event-list-date-badge">
+                                    <span class="event-list-day"><?php echo $date->format('d'); ?></span>
+                                    <span class="event-list-month"><?php echo $date->format('M'); ?></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-list-content">
+                            <h3 class="event-list-title"><?php echo esc_html($event['title']); ?></h3>
+                            <div class="event-list-meta">
+                                <p class="event-list-time">
+                                    <span class="emoji">&#128337;</span>
+                                    <?php echo $time->format('g:i A'); ?>
+                                </p>
+                                <p class="event-list-location">
+                                    <span class="emoji">&#128205;</span>
+                                    <?php echo esc_html($event['location'] ?? 'TBA'); ?>
+                                </p>
+                            </div>
+                            <div class="event-list-category-tag">
+                                <span class="emoji">&#127991;</span>
+                                <?php echo esc_html($event['category'] ?? 'Uncategorized'); ?>
+                            </div>
+                            <a href="<?php echo esc_url(home_url("/details/{$event['id']}")); ?>" class="event-list-button">View Details</a>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+
+            <?php if ($atts['limit'] <= 0 && $total_pages > 1): ?>
+                <div class="event-list-pagination">
+                    <?php
+                    echo paginate_links(array(
+                        'base' => add_query_arg('paged', '%#%'),
+                        'format' => '',
+                        'prev_text' => '&#8249;',
+                        'next_text' => '&#8250;',
+                        'total' => $total_pages,
+                        'current' => $atts['paged'],
+                        'type' => 'list'
+                    ));
+                    ?>
+                </div>
+            <?php endif; ?>
+        </div>
+    </div>
+
+    <?php if ($atts['limit'] <= 0): ?>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const toggleButtons = document.querySelectorAll('.event-list-toggle-btn');
+                const eventListItems = document.querySelector('.event-list-items');
+
+                toggleButtons.forEach(button => {
+                    button.addEventListener('click', function() {
+                        const view = this.getAttribute('data-view');
+                        eventListItems.setAttribute('data-view', view);
+                        toggleButtons.forEach(btn => btn.classList.remove('active'));
+                        this.classList.add('active');
+                    });
+                });
+            });
+        </script>
+    <?php endif; ?>
+
+<?php
     // Return the buffered content
     return ob_get_clean();
 }

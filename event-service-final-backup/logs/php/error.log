@@ -1297,3 +1297,806 @@ Stack trace:
 [22-Oct-2024 21:36:15 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
 [22-Oct-2024 21:36:15 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
 [22-Oct-2024 21:36:15 UTC] PHP Warning:  Undefined array key "image_url" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 16
+[23-Oct-2024 17:54:50 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[23-Oct-2024 17:54:50 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 22
+[23-Oct-2024 17:54:53 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 21
+[23-Oct-2024 17:54:53 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 22
+[23-Oct-2024 18:06:05 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 22
+[23-Oct-2024 18:06:05 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 23
+[23-Oct-2024 18:06:05 UTC] PHP Warning:  Undefined array key "date_from" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 26
+[23-Oct-2024 18:06:05 UTC] PHP Warning:  Undefined array key "date_to" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 28
+[23-Oct-2024 18:06:26 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 22
+[23-Oct-2024 18:06:26 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 23
+[23-Oct-2024 18:06:26 UTC] PHP Warning:  Undefined array key "date_from" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 26
+[23-Oct-2024 18:06:26 UTC] PHP Warning:  Undefined array key "date_to" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 28
+[23-Oct-2024 18:10:58 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 44
+[23-Oct-2024 18:10:58 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 45
+[23-Oct-2024 18:10:58 UTC] PHP Warning:  Undefined array key "date_from" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 48
+[23-Oct-2024 18:10:58 UTC] PHP Warning:  Undefined array key "date_to" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 50
+[23-Oct-2024 18:19:41 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 37
+[23-Oct-2024 18:19:41 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 38
+[23-Oct-2024 18:19:41 UTC] PHP Warning:  Undefined array key "date_from" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 41
+[23-Oct-2024 18:19:41 UTC] PHP Warning:  Undefined array key "date_to" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 43
+[23-Oct-2024 18:19:53 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 37
+[23-Oct-2024 18:19:53 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 38
+[23-Oct-2024 18:19:53 UTC] PHP Warning:  Undefined array key "date_from" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 41
+[23-Oct-2024 18:19:53 UTC] PHP Warning:  Undefined array key "date_to" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 43
+[23-Oct-2024 18:20:08 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 37
+[23-Oct-2024 18:20:08 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 38
+[23-Oct-2024 18:20:08 UTC] PHP Warning:  Undefined array key "date_from" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 41
+[23-Oct-2024 18:20:08 UTC] PHP Warning:  Undefined array key "date_to" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 43
+[23-Oct-2024 18:21:01 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 37
+[23-Oct-2024 18:21:01 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 38
+[23-Oct-2024 18:21:01 UTC] PHP Warning:  Undefined array key "date_from" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 41
+[23-Oct-2024 18:21:01 UTC] PHP Warning:  Undefined array key "date_to" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 43
+[23-Oct-2024 18:22:20 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 37
+[23-Oct-2024 18:22:20 UTC] PHP Warning:  Undefined array key "order" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 38
+[23-Oct-2024 18:22:20 UTC] PHP Warning:  Undefined array key "date_from" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 41
+[23-Oct-2024 18:22:20 UTC] PHP Warning:  Undefined array key "date_to" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 43
+[23-Oct-2024 18:28:46 UTC] API URL: http://localhost:8000/api/v1/events/filter?category=moon light&sort=date&order=desc&view=grid&per_page=10&paged=1&limit=-1
+[23-Oct-2024 18:28:46 UTC] API Response: {"message":"Event not found"}
+[23-Oct-2024 18:28:46 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php:73
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(147): include()
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list]')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list]')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(776): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#9 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#11 [internal function]: do_shortcode_tag(Array)
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(1856): do_shortcode('<div class="ele...')
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(1201): Elementor\Core\Base\Document->print_elements(Array)
+#15 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\frontend.php(1207): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#16 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\frontend.php(1102): Elementor\Frontend->get_builder_content(26)
+#17 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('<h2>All events<...')
+#18 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<h2>All events<...', Array)
+#19 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\post-template.php(256): apply_filters('the_content', '<h2>All events<...')
+#20 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\template-parts\single\content-header.php(37): the_content()
+#21 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(812): require('C:\\Users\\tahmid...')
+#22 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(745): load_template('C:\\Users\\tahmid...', false, Array)
+#23 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#24 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\template-parts.php(376): get_template_part('template-parts/...')
+#25 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): astra_entry_content_single_page_template('')
+#26 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#27 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#28 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\core\theme-hooks.php(452): do_action('astra_entry_con...')
+#29 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\template-parts\content-page.php(26): astra_entry_content_single_page()
+#30 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(812): require('C:\\Users\\tahmid...')
+#31 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(745): load_template('C:\\Users\\tahmid...', false, Array)
+#32 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#33 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(111): get_template_part('template-parts/...', 'page')
+#34 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Astra_Loop->template_parts_page('')
+#35 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#36 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#37 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(199): do_action('astra_page_temp...')
+#38 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(176): Astra_Loop->loop_markup(true)
+#39 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Astra_Loop->loop_markup_page('')
+#40 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#41 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#42 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\core\theme-hooks.php(267): do_action('astra_content_p...')
+#43 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\page.php(32): astra_content_page_loop()
+#44 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\tahmid...')
+#45 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-blog-header.php(19): require_once('C:\\Users\\tahmid...')
+#46 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\index.php(17): require('C:\\Users\\tahmid...')
+#47 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 73
+[23-Oct-2024 18:29:21 UTC] API URL: http://localhost:8000/api/v1/events/filter?category=moon light&sort=date&order=desc&view=grid&per_page=10&paged=1&limit=-1
+[23-Oct-2024 18:29:21 UTC] API Response: {"message":"Event not found"}
+[23-Oct-2024 18:29:21 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php:73
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(147): include()
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list]')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list]')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(776): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#9 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#11 [internal function]: do_shortcode_tag(Array)
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(1856): do_shortcode('<div class="ele...')
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(1201): Elementor\Core\Base\Document->print_elements(Array)
+#15 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\frontend.php(1207): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#16 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\frontend.php(1102): Elementor\Frontend->get_builder_content(26)
+#17 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('<h2>All events<...')
+#18 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<h2>All events<...', Array)
+#19 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\post-template.php(256): apply_filters('the_content', '<h2>All events<...')
+#20 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\template-parts\single\content-header.php(37): the_content()
+#21 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(812): require('C:\\Users\\tahmid...')
+#22 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(745): load_template('C:\\Users\\tahmid...', false, Array)
+#23 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#24 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\template-parts.php(376): get_template_part('template-parts/...')
+#25 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): astra_entry_content_single_page_template('')
+#26 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#27 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#28 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\core\theme-hooks.php(452): do_action('astra_entry_con...')
+#29 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\template-parts\content-page.php(26): astra_entry_content_single_page()
+#30 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(812): require('C:\\Users\\tahmid...')
+#31 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(745): load_template('C:\\Users\\tahmid...', false, Array)
+#32 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#33 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(111): get_template_part('template-parts/...', 'page')
+#34 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Astra_Loop->template_parts_page('')
+#35 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#36 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#37 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(199): do_action('astra_page_temp...')
+#38 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(176): Astra_Loop->loop_markup(true)
+#39 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Astra_Loop->loop_markup_page('')
+#40 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#41 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#42 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\core\theme-hooks.php(267): do_action('astra_content_p...')
+#43 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\page.php(32): astra_content_page_loop()
+#44 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\tahmid...')
+#45 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-blog-header.php(19): require_once('C:\\Users\\tahmid...')
+#46 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\index.php(17): require('C:\\Users\\tahmid...')
+#47 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 73
+[23-Oct-2024 18:29:29 UTC] API URL: http://localhost:8000/api/v1/events/filter?category=moon light&sort=date&order=desc&view=grid&per_page=10&paged=1&limit=-1
+[23-Oct-2024 18:29:30 UTC] API Response: {"message":"Event not found"}
+[23-Oct-2024 18:29:30 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php:73
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(147): include()
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list]')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list]')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(776): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#9 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#11 [internal function]: do_shortcode_tag(Array)
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(1856): do_shortcode('<div class="ele...')
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(1201): Elementor\Core\Base\Document->print_elements(Array)
+#15 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\frontend.php(1207): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#16 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\frontend.php(1102): Elementor\Frontend->get_builder_content(26)
+#17 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('<h2>All events<...')
+#18 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<h2>All events<...', Array)
+#19 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\post-template.php(256): apply_filters('the_content', '<h2>All events<...')
+#20 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\template-parts\single\content-header.php(37): the_content()
+#21 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(812): require('C:\\Users\\tahmid...')
+#22 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(745): load_template('C:\\Users\\tahmid...', false, Array)
+#23 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#24 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\template-parts.php(376): get_template_part('template-parts/...')
+#25 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): astra_entry_content_single_page_template('')
+#26 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#27 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#28 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\core\theme-hooks.php(452): do_action('astra_entry_con...')
+#29 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\template-parts\content-page.php(26): astra_entry_content_single_page()
+#30 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(812): require('C:\\Users\\tahmid...')
+#31 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(745): load_template('C:\\Users\\tahmid...', false, Array)
+#32 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#33 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(111): get_template_part('template-parts/...', 'page')
+#34 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Astra_Loop->template_parts_page('')
+#35 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#36 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#37 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(199): do_action('astra_page_temp...')
+#38 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(176): Astra_Loop->loop_markup(true)
+#39 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Astra_Loop->loop_markup_page('')
+#40 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#41 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#42 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\core\theme-hooks.php(267): do_action('astra_content_p...')
+#43 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\page.php(32): astra_content_page_loop()
+#44 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\tahmid...')
+#45 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-blog-header.php(19): require_once('C:\\Users\\tahmid...')
+#46 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\index.php(17): require('C:\\Users\\tahmid...')
+#47 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 73
+[23-Oct-2024 18:31:29 UTC] API URL: http://localhost:8000/api/v1/events/filter?category=moon light&sort=date&order=desc&view=grid&per_page=10&paged=1&limit=-1
+[23-Oct-2024 18:31:29 UTC] API Response: {"message":"Event not found"}
+[23-Oct-2024 18:31:29 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php:73
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(147): include()
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list]')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list]')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(776): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#9 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#11 [internal function]: do_shortcode_tag(Array)
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(1856): do_shortcode('<div class="ele...')
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(1201): Elementor\Core\Base\Document->print_elements(Array)
+#15 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\frontend.php(1207): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#16 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\frontend.php(1102): Elementor\Frontend->get_builder_content(26)
+#17 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('<h2>All events<...')
+#18 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<h2>All events<...', Array)
+#19 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\post-template.php(256): apply_filters('the_content', '<h2>All events<...')
+#20 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\template-parts\single\content-header.php(37): the_content()
+#21 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(812): require('C:\\Users\\tahmid...')
+#22 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(745): load_template('C:\\Users\\tahmid...', false, Array)
+#23 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#24 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\template-parts.php(376): get_template_part('template-parts/...')
+#25 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): astra_entry_content_single_page_template('')
+#26 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#27 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#28 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\core\theme-hooks.php(452): do_action('astra_entry_con...')
+#29 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\template-parts\content-page.php(26): astra_entry_content_single_page()
+#30 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(812): require('C:\\Users\\tahmid...')
+#31 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(745): load_template('C:\\Users\\tahmid...', false, Array)
+#32 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#33 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(111): get_template_part('template-parts/...', 'page')
+#34 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Astra_Loop->template_parts_page('')
+#35 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#36 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#37 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(199): do_action('astra_page_temp...')
+#38 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(176): Astra_Loop->loop_markup(true)
+#39 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Astra_Loop->loop_markup_page('')
+#40 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#41 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#42 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\core\theme-hooks.php(267): do_action('astra_content_p...')
+#43 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\page.php(32): astra_content_page_loop()
+#44 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\tahmid...')
+#45 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-blog-header.php(19): require_once('C:\\Users\\tahmid...')
+#46 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\index.php(17): require('C:\\Users\\tahmid...')
+#47 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 73
+[23-Oct-2024 18:32:36 UTC] API URL: http://localhost:8000/api/v1/events/filter?category=moon light&sort=date&order=desc&view=grid&per_page=10&paged=1&limit=-1
+[23-Oct-2024 18:32:37 UTC] API Response: {"message":"Event not found"}
+[23-Oct-2024 18:32:37 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php:74
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(147): include()
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list]')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list]')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(776): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#9 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#11 [internal function]: do_shortcode_tag(Array)
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(1856): do_shortcode('<div class="ele...')
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(1201): Elementor\Core\Base\Document->print_elements(Array)
+#15 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\frontend.php(1207): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#16 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\frontend.php(1102): Elementor\Frontend->get_builder_content(26)
+#17 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('<h2>All events<...')
+#18 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<h2>All events<...', Array)
+#19 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\post-template.php(256): apply_filters('the_content', '<h2>All events<...')
+#20 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\template-parts\single\content-header.php(37): the_content()
+#21 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(812): require('C:\\Users\\tahmid...')
+#22 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(745): load_template('C:\\Users\\tahmid...', false, Array)
+#23 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#24 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\template-parts.php(376): get_template_part('template-parts/...')
+#25 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): astra_entry_content_single_page_template('')
+#26 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#27 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#28 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\core\theme-hooks.php(452): do_action('astra_entry_con...')
+#29 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\template-parts\content-page.php(26): astra_entry_content_single_page()
+#30 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(812): require('C:\\Users\\tahmid...')
+#31 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(745): load_template('C:\\Users\\tahmid...', false, Array)
+#32 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#33 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(111): get_template_part('template-parts/...', 'page')
+#34 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Astra_Loop->template_parts_page('')
+#35 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#36 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#37 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(199): do_action('astra_page_temp...')
+#38 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(176): Astra_Loop->loop_markup(true)
+#39 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Astra_Loop->loop_markup_page('')
+#40 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#41 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#42 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\core\theme-hooks.php(267): do_action('astra_content_p...')
+#43 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\page.php(32): astra_content_page_loop()
+#44 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\tahmid...')
+#45 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-blog-header.php(19): require_once('C:\\Users\\tahmid...')
+#46 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\index.php(17): require('C:\\Users\\tahmid...')
+#47 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 74
+[23-Oct-2024 18:36:24 UTC] API URL: http://localhost:8000/api/v1/events/filter?category=moon light&sort=date&order=desc&view=grid&per_page=10&paged=1&limit=-1
+[23-Oct-2024 18:36:24 UTC] API Response: {"message":"Event not found"}
+[23-Oct-2024 18:36:24 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php:82
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(147): include()
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list]')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list]')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(776): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#9 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#11 [internal function]: do_shortcode_tag(Array)
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(1856): do_shortcode('<div class="ele...')
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(1201): Elementor\Core\Base\Document->print_elements(Array)
+#15 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\frontend.php(1207): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#16 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\frontend.php(1102): Elementor\Frontend->get_builder_content(26)
+#17 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('<h2>All events<...')
+#18 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<h2>All events<...', Array)
+#19 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\post-template.php(256): apply_filters('the_content', '<h2>All events<...')
+#20 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\template-parts\single\content-header.php(37): the_content()
+#21 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(812): require('C:\\Users\\tahmid...')
+#22 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(745): load_template('C:\\Users\\tahmid...', false, Array)
+#23 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#24 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\template-parts.php(376): get_template_part('template-parts/...')
+#25 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): astra_entry_content_single_page_template('')
+#26 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#27 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#28 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\core\theme-hooks.php(452): do_action('astra_entry_con...')
+#29 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\template-parts\content-page.php(26): astra_entry_content_single_page()
+#30 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(812): require('C:\\Users\\tahmid...')
+#31 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(745): load_template('C:\\Users\\tahmid...', false, Array)
+#32 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#33 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(111): get_template_part('template-parts/...', 'page')
+#34 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Astra_Loop->template_parts_page('')
+#35 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#36 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#37 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(199): do_action('astra_page_temp...')
+#38 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(176): Astra_Loop->loop_markup(true)
+#39 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Astra_Loop->loop_markup_page('')
+#40 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#41 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#42 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\core\theme-hooks.php(267): do_action('astra_content_p...')
+#43 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\page.php(32): astra_content_page_loop()
+#44 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\tahmid...')
+#45 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-blog-header.php(19): require_once('C:\\Users\\tahmid...')
+#46 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\index.php(17): require('C:\\Users\\tahmid...')
+#47 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 82
+[23-Oct-2024 18:36:38 UTC] API URL: http://localhost:8000/api/v1/events/filter?sort=date&order=desc&view=grid&per_page=10&paged=1&limit=-1
+[23-Oct-2024 18:36:38 UTC] API Response: {"message":"Event not found"}
+[23-Oct-2024 18:36:38 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php:82
+Stack trace:
+#0 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php(147): include()
+#1 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): event_list_shortcode(Array, '', 'event_list')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(event_...', 'do_shortcode_ta...', '[event_list]')
+#4 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(137): do_shortcode('[event_list]')
+#5 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#6 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#7 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(776): Elementor\Widget_Base->render_content()
+#8 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#9 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#10 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#11 [internal function]: do_shortcode_tag(Array)
+#12 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#13 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(1856): do_shortcode('<div class="ele...')
+#14 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\core\base\document.php(1201): Elementor\Core\Base\Document->print_elements(Array)
+#15 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\frontend.php(1207): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#16 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\plugins\elementor\includes\frontend.php(1102): Elementor\Frontend->get_builder_content(26)
+#17 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('<h2>All events<...')
+#18 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<h2>All events<...', Array)
+#19 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\post-template.php(256): apply_filters('the_content', '<h2>All events<...')
+#20 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\template-parts\single\content-header.php(37): the_content()
+#21 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(812): require('C:\\Users\\tahmid...')
+#22 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(745): load_template('C:\\Users\\tahmid...', false, Array)
+#23 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#24 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\template-parts.php(376): get_template_part('template-parts/...')
+#25 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): astra_entry_content_single_page_template('')
+#26 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#27 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#28 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\core\theme-hooks.php(452): do_action('astra_entry_con...')
+#29 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\template-parts\content-page.php(26): astra_entry_content_single_page()
+#30 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(812): require('C:\\Users\\tahmid...')
+#31 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template.php(745): load_template('C:\\Users\\tahmid...', false, Array)
+#32 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#33 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(111): get_template_part('template-parts/...', 'page')
+#34 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Astra_Loop->template_parts_page('')
+#35 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#36 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#37 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(199): do_action('astra_page_temp...')
+#38 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\class-astra-loop.php(176): Astra_Loop->loop_markup(true)
+#39 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(324): Astra_Loop->loop_markup_page('')
+#40 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#41 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#42 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\inc\core\theme-hooks.php(267): do_action('astra_content_p...')
+#43 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra\page.php(32): astra_content_page_loop()
+#44 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\tahmid...')
+#45 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-blog-header.php(19): require_once('C:\\Users\\tahmid...')
+#46 C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\index.php(17): require('C:\\Users\\tahmid...')
+#47 {main}
+  thrown in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\templates\event-list-template.php on line 82
+[23-Oct-2024 18:40:24 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 164
+[23-Oct-2024 18:40:33 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 164
+[23-Oct-2024 18:40:40 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 164
+[23-Oct-2024 18:43:16 UTC] PHP Warning:  Attempt to read property "term_id" on array in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 166
+[23-Oct-2024 18:43:16 UTC] PHP Warning:  Attempt to read property "term_id" on array in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 166
+[23-Oct-2024 18:43:16 UTC] PHP Warning:  Attempt to read property "name" on array in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 167
+[23-Oct-2024 18:43:16 UTC] PHP Warning:  Attempt to read property "term_id" on array in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 166
+[23-Oct-2024 18:43:16 UTC] PHP Warning:  Attempt to read property "term_id" on array in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 166
+[23-Oct-2024 18:43:16 UTC] PHP Warning:  Attempt to read property "name" on array in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 167
+[23-Oct-2024 18:43:24 UTC] PHP Warning:  Attempt to read property "term_id" on array in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 166
+[23-Oct-2024 18:43:24 UTC] PHP Warning:  Attempt to read property "term_id" on array in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 166
+[23-Oct-2024 18:43:24 UTC] PHP Warning:  Attempt to read property "name" on array in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 167
+[23-Oct-2024 18:43:24 UTC] PHP Warning:  Attempt to read property "term_id" on array in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 166
+[23-Oct-2024 18:43:24 UTC] PHP Warning:  Attempt to read property "term_id" on array in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 166
+[23-Oct-2024 18:43:24 UTC] PHP Warning:  Attempt to read property "name" on array in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 167
+[23-Oct-2024 18:44:56 UTC] PHP Warning:  Undefined array key "term_id" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 166
+[23-Oct-2024 18:44:56 UTC] PHP Warning:  Undefined array key "term_id" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 166
+[23-Oct-2024 18:44:56 UTC] PHP Warning:  Undefined array key "name" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 167
+[23-Oct-2024 18:44:56 UTC] PHP Warning:  Undefined array key "term_id" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 166
+[23-Oct-2024 18:44:56 UTC] PHP Warning:  Undefined array key "term_id" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 166
+[23-Oct-2024 18:44:56 UTC] PHP Warning:  Undefined array key "name" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 167
+[23-Oct-2024 18:58:20 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 18:58:20 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 18:58:25 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 18:58:25 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 18:58:55 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 18:58:55 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 18:58:55 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 18:58:55 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 18:58:55 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 18:58:55 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 18:58:55 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 18:58:55 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 18:59:40 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 18:59:40 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 18:59:40 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 18:59:40 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 18:59:40 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 18:59:40 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 18:59:40 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 18:59:40 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 18:59:41 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 18:59:41 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 18:59:41 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 18:59:41 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 18:59:41 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 18:59:41 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 18:59:41 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 18:59:41 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 18:59:50 UTC] API Connection Test Status: 200
+[23-Oct-2024 18:59:50 UTC] API Connection Test Body: [{"id":16,"title":"title of the event","description":"description of the event","date":"2024-10-25T00:00:00.000000Z","time":"2024-10-23T00:36:00.000000Z","location":"Sylhet","category":"moon light","created_at":"2024-10-22T18:36:13.000000Z","updated_at":"2024-10-22T18:36:13.000000Z","primary_image":null},{"id":17,"title":"Ullamco dolor dicta","description":"Accusantium incidunt","date":"1983-07-03T00:00:00.000000Z","time":"2024-10-23T07:05:00.000000Z","location":"Incididunt ipsum ad","category":"Quam pariatur Qui s","created_at":"2024-10-22T21:16:54.000000Z","updated_at":"2024-10-22T21:16:54.000000Z","primary_image":null},{"id":18,"title":"Ea dolor sequi aut v","description":"Laborum culpa Nam a","date":"1991-04-24T00:00:00.000000Z","time":"2024-10-23T08:33:00.000000Z","location":"Excepteur ullam anim","category":"Omnis amet assumend","created_at":"2024-10-22T21:16:58.000000Z","updated_at":"2024-10-22T21:16:58.000000Z","primary_image":null},{"id":19,"title":"In magna irure omnis","description":"Et est harum ex labo","date":"2006-08-10T00:00:00.000000Z","time":"2024-10-23T06:32:00.000000Z","location":"Lorem sint tempora","category":"Odit voluptatibus vo","created_at":"2024-10-22T21:17:00.000000Z","updated_at":"2024-10-22T21:17:00.000000Z","primary_image":null},{"id":20,"title":"Numquam sint sint e","description":"Ut aspernatur aliqui","date":"1981-01-17T00:00:00.000000Z","time":"2024-10-23T16:36:00.000000Z","location":"Voluptate laborum A","category":"Voluptas sapiente te","created_at":"2024-10-22T21:17:02.000000Z","updated_at":"2024-10-22T21:17:02.000000Z","primary_image":null},{"id":21,"title":"Sapiente deserunt la","description":"Officiis omnis Nam e","date":"2007-01-25T00:00:00.000000Z","time":"2024-10-23T20:54:00.000000Z","location":"Aut tempora vitae qu","category":"Nostrum numquam sapi","created_at":"2024-10-22T21:17:04.000000Z","updated_at":"2024-10-22T21:17:04.000000Z","primary_image":null}]
+[23-Oct-2024 18:59:53 UTC] API Connection Test Status: 200
+[23-Oct-2024 18:59:53 UTC] API Connection Test Body: [{"id":16,"title":"title of the event","description":"description of the event","date":"2024-10-25T00:00:00.000000Z","time":"2024-10-23T00:36:00.000000Z","location":"Sylhet","category":"moon light","created_at":"2024-10-22T18:36:13.000000Z","updated_at":"2024-10-22T18:36:13.000000Z","primary_image":null},{"id":17,"title":"Ullamco dolor dicta","description":"Accusantium incidunt","date":"1983-07-03T00:00:00.000000Z","time":"2024-10-23T07:05:00.000000Z","location":"Incididunt ipsum ad","category":"Quam pariatur Qui s","created_at":"2024-10-22T21:16:54.000000Z","updated_at":"2024-10-22T21:16:54.000000Z","primary_image":null},{"id":18,"title":"Ea dolor sequi aut v","description":"Laborum culpa Nam a","date":"1991-04-24T00:00:00.000000Z","time":"2024-10-23T08:33:00.000000Z","location":"Excepteur ullam anim","category":"Omnis amet assumend","created_at":"2024-10-22T21:16:58.000000Z","updated_at":"2024-10-22T21:16:58.000000Z","primary_image":null},{"id":19,"title":"In magna irure omnis","description":"Et est harum ex labo","date":"2006-08-10T00:00:00.000000Z","time":"2024-10-23T06:32:00.000000Z","location":"Lorem sint tempora","category":"Odit voluptatibus vo","created_at":"2024-10-22T21:17:00.000000Z","updated_at":"2024-10-22T21:17:00.000000Z","primary_image":null},{"id":20,"title":"Numquam sint sint e","description":"Ut aspernatur aliqui","date":"1981-01-17T00:00:00.000000Z","time":"2024-10-23T16:36:00.000000Z","location":"Voluptate laborum A","category":"Voluptas sapiente te","created_at":"2024-10-22T21:17:02.000000Z","updated_at":"2024-10-22T21:17:02.000000Z","primary_image":null},{"id":21,"title":"Sapiente deserunt la","description":"Officiis omnis Nam e","date":"2007-01-25T00:00:00.000000Z","time":"2024-10-23T20:54:00.000000Z","location":"Aut tempora vitae qu","category":"Nostrum numquam sapi","created_at":"2024-10-22T21:17:04.000000Z","updated_at":"2024-10-22T21:17:04.000000Z","primary_image":null}]
+[23-Oct-2024 18:59:53 UTC] Form submitted. POST data: Array
+(
+    [title] => Nihil ullam distinct
+    [description] => Sit nesciunt in re
+    [date] => 2019-10-05
+    [time] => 11:12
+    [location] => Molestiae dolores ma
+    [category] => Pariatur Quasi sunt
+    [submit] => Add Event
+)
+
+[23-Oct-2024 18:59:53 UTC] Attempting to add event. Data: Array
+(
+    [title] => Nihil ullam distinct
+    [description] => Sit nesciunt in re
+    [date] => 2019-10-05
+    [time] => 11:12
+    [location] => Molestiae dolores ma
+    [category] => Pariatur Quasi sunt
+    [submit] => Add Event
+)
+
+[23-Oct-2024 18:59:54 UTC] API Response Status: 201
+[23-Oct-2024 18:59:54 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"Nihil ullam distinct","description":"Sit nesciunt in re","date":"2019-10-05T00:00:00.000000Z","time":"2024-10-23T11:12:00.000000Z","location":"Molestiae dolores ma","category":"Pariatur Quasi sunt","updated_at":"2024-10-23T18:59:54.000000Z","created_at":"2024-10-23T18:59:54.000000Z","id":22}}
+[23-Oct-2024 18:59:56 UTC] API Connection Test Status: 200
+[23-Oct-2024 18:59:56 UTC] API Connection Test Body: [{"id":16,"title":"title of the event","description":"description of the event","date":"2024-10-25T00:00:00.000000Z","time":"2024-10-23T00:36:00.000000Z","location":"Sylhet","category":"moon light","created_at":"2024-10-22T18:36:13.000000Z","updated_at":"2024-10-22T18:36:13.000000Z","primary_image":null},{"id":17,"title":"Ullamco dolor dicta","description":"Accusantium incidunt","date":"1983-07-03T00:00:00.000000Z","time":"2024-10-23T07:05:00.000000Z","location":"Incididunt ipsum ad","category":"Quam pariatur Qui s","created_at":"2024-10-22T21:16:54.000000Z","updated_at":"2024-10-22T21:16:54.000000Z","primary_image":null},{"id":18,"title":"Ea dolor sequi aut v","description":"Laborum culpa Nam a","date":"1991-04-24T00:00:00.000000Z","time":"2024-10-23T08:33:00.000000Z","location":"Excepteur ullam anim","category":"Omnis amet assumend","created_at":"2024-10-22T21:16:58.000000Z","updated_at":"2024-10-22T21:16:58.000000Z","primary_image":null},{"id":19,"title":"In magna irure omnis","description":"Et est harum ex labo","date":"2006-08-10T00:00:00.000000Z","time":"2024-10-23T06:32:00.000000Z","location":"Lorem sint tempora","category":"Odit voluptatibus vo","created_at":"2024-10-22T21:17:00.000000Z","updated_at":"2024-10-22T21:17:00.000000Z","primary_image":null},{"id":20,"title":"Numquam sint sint e","description":"Ut aspernatur aliqui","date":"1981-01-17T00:00:00.000000Z","time":"2024-10-23T16:36:00.000000Z","location":"Voluptate laborum A","category":"Voluptas sapiente te","created_at":"2024-10-22T21:17:02.000000Z","updated_at":"2024-10-22T21:17:02.000000Z","primary_image":null},{"id":21,"title":"Sapiente deserunt la","description":"Officiis omnis Nam e","date":"2007-01-25T00:00:00.000000Z","time":"2024-10-23T20:54:00.000000Z","location":"Aut tempora vitae qu","category":"Nostrum numquam sapi","created_at":"2024-10-22T21:17:04.000000Z","updated_at":"2024-10-22T21:17:04.000000Z","primary_image":null},{"id":22,"title":"Nihil ullam distinct","description":"Sit nesciunt in re","date":"2019-10-05T00:00:00.000000Z","time":"2024-10-23T11:12:00.000000Z","location":"Molestiae dolores ma","category":"Pariatur Quasi sunt","created_at":"2024-10-23T18:59:54.000000Z","updated_at":"2024-10-23T18:59:54.000000Z","primary_image":null}]
+[23-Oct-2024 18:59:56 UTC] Form submitted. POST data: Array
+(
+    [title] => Quo quia aperiam sed
+    [description] => Voluptatem adipisici
+    [date] => 2023-01-22
+    [time] => 23:10
+    [location] => Officiis ex sit sin
+    [category] => Sint et tempor volup
+    [submit] => Add Event
+)
+
+[23-Oct-2024 18:59:56 UTC] Attempting to add event. Data: Array
+(
+    [title] => Quo quia aperiam sed
+    [description] => Voluptatem adipisici
+    [date] => 2023-01-22
+    [time] => 23:10
+    [location] => Officiis ex sit sin
+    [category] => Sint et tempor volup
+    [submit] => Add Event
+)
+
+[23-Oct-2024 18:59:56 UTC] API Response Status: 201
+[23-Oct-2024 18:59:56 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"Quo quia aperiam sed","description":"Voluptatem adipisici","date":"2023-01-22T00:00:00.000000Z","time":"2024-10-23T23:10:00.000000Z","location":"Officiis ex sit sin","category":"Sint et tempor volup","updated_at":"2024-10-23T18:59:56.000000Z","created_at":"2024-10-23T18:59:56.000000Z","id":23}}
+[23-Oct-2024 18:59:58 UTC] API Connection Test Status: 200
+[23-Oct-2024 18:59:58 UTC] API Connection Test Body: [{"id":16,"title":"title of the event","description":"description of the event","date":"2024-10-25T00:00:00.000000Z","time":"2024-10-23T00:36:00.000000Z","location":"Sylhet","category":"moon light","created_at":"2024-10-22T18:36:13.000000Z","updated_at":"2024-10-22T18:36:13.000000Z","primary_image":null},{"id":17,"title":"Ullamco dolor dicta","description":"Accusantium incidunt","date":"1983-07-03T00:00:00.000000Z","time":"2024-10-23T07:05:00.000000Z","location":"Incididunt ipsum ad","category":"Quam pariatur Qui s","created_at":"2024-10-22T21:16:54.000000Z","updated_at":"2024-10-22T21:16:54.000000Z","primary_image":null},{"id":18,"title":"Ea dolor sequi aut v","description":"Laborum culpa Nam a","date":"1991-04-24T00:00:00.000000Z","time":"2024-10-23T08:33:00.000000Z","location":"Excepteur ullam anim","category":"Omnis amet assumend","created_at":"2024-10-22T21:16:58.000000Z","updated_at":"2024-10-22T21:16:58.000000Z","primary_image":null},{"id":19,"title":"In magna irure omnis","description":"Et est harum ex labo","date":"2006-08-10T00:00:00.000000Z","time":"2024-10-23T06:32:00.000000Z","location":"Lorem sint tempora","category":"Odit voluptatibus vo","created_at":"2024-10-22T21:17:00.000000Z","updated_at":"2024-10-22T21:17:00.000000Z","primary_image":null},{"id":20,"title":"Numquam sint sint e","description":"Ut aspernatur aliqui","date":"1981-01-17T00:00:00.000000Z","time":"2024-10-23T16:36:00.000000Z","location":"Voluptate laborum A","category":"Voluptas sapiente te","created_at":"2024-10-22T21:17:02.000000Z","updated_at":"2024-10-22T21:17:02.000000Z","primary_image":null},{"id":21,"title":"Sapiente deserunt la","description":"Officiis omnis Nam e","date":"2007-01-25T00:00:00.000000Z","time":"2024-10-23T20:54:00.000000Z","location":"Aut tempora vitae qu","category":"Nostrum numquam sapi","created_at":"2024-10-22T21:17:04.000000Z","updated_at":"2024-10-22T21:17:04.000000Z","primary_image":null},{"id":22,"title":"Nihil ullam distinct","description":"Sit nesciunt in re","date":"2019-10-05T00:00:00.000000Z","time":"2024-10-23T11:12:00.000000Z","location":"Molestiae dolores ma","category":"Pariatur Quasi sunt","created_at":"2024-10-23T18:59:54.000000Z","updated_at":"2024-10-23T18:59:54.000000Z","primary_image":null},{"id":23,"title":"Quo quia aperiam sed","description":"Voluptatem adipisici","date":"2023-01-22T00:00:00.000000Z","time":"2024-10-23T23:10:00.000000Z","location":"Officiis ex sit sin","category":"Sint et tempor volup","created_at":"2024-10-23T18:59:56.000000Z","updated_at":"2024-10-23T18:59:56.000000Z","primary_image":null}]
+[23-Oct-2024 18:59:58 UTC] Form submitted. POST data: Array
+(
+    [title] => Ea ipsum excepturi c
+    [description] => Ratione aut aute ali
+    [date] => 2017-12-16
+    [time] => 12:32
+    [location] => Officia eu praesenti
+    [category] => Consequuntur vero ac
+    [submit] => Add Event
+)
+
+[23-Oct-2024 18:59:58 UTC] Attempting to add event. Data: Array
+(
+    [title] => Ea ipsum excepturi c
+    [description] => Ratione aut aute ali
+    [date] => 2017-12-16
+    [time] => 12:32
+    [location] => Officia eu praesenti
+    [category] => Consequuntur vero ac
+    [submit] => Add Event
+)
+
+[23-Oct-2024 18:59:59 UTC] API Response Status: 201
+[23-Oct-2024 18:59:59 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"Ea ipsum excepturi c","description":"Ratione aut aute ali","date":"2017-12-16T00:00:00.000000Z","time":"2024-10-23T12:32:00.000000Z","location":"Officia eu praesenti","category":"Consequuntur vero ac","updated_at":"2024-10-23T18:59:59.000000Z","created_at":"2024-10-23T18:59:59.000000Z","id":24}}
+[23-Oct-2024 19:00:02 UTC] API Connection Test Status: 200
+[23-Oct-2024 19:00:02 UTC] API Connection Test Body: [{"id":16,"title":"title of the event","description":"description of the event","date":"2024-10-25T00:00:00.000000Z","time":"2024-10-23T00:36:00.000000Z","location":"Sylhet","category":"moon light","created_at":"2024-10-22T18:36:13.000000Z","updated_at":"2024-10-22T18:36:13.000000Z","primary_image":null},{"id":17,"title":"Ullamco dolor dicta","description":"Accusantium incidunt","date":"1983-07-03T00:00:00.000000Z","time":"2024-10-23T07:05:00.000000Z","location":"Incididunt ipsum ad","category":"Quam pariatur Qui s","created_at":"2024-10-22T21:16:54.000000Z","updated_at":"2024-10-22T21:16:54.000000Z","primary_image":null},{"id":18,"title":"Ea dolor sequi aut v","description":"Laborum culpa Nam a","date":"1991-04-24T00:00:00.000000Z","time":"2024-10-23T08:33:00.000000Z","location":"Excepteur ullam anim","category":"Omnis amet assumend","created_at":"2024-10-22T21:16:58.000000Z","updated_at":"2024-10-22T21:16:58.000000Z","primary_image":null},{"id":19,"title":"In magna irure omnis","description":"Et est harum ex labo","date":"2006-08-10T00:00:00.000000Z","time":"2024-10-23T06:32:00.000000Z","location":"Lorem sint tempora","category":"Odit voluptatibus vo","created_at":"2024-10-22T21:17:00.000000Z","updated_at":"2024-10-22T21:17:00.000000Z","primary_image":null},{"id":20,"title":"Numquam sint sint e","description":"Ut aspernatur aliqui","date":"1981-01-17T00:00:00.000000Z","time":"2024-10-23T16:36:00.000000Z","location":"Voluptate laborum A","category":"Voluptas sapiente te","created_at":"2024-10-22T21:17:02.000000Z","updated_at":"2024-10-22T21:17:02.000000Z","primary_image":null},{"id":21,"title":"Sapiente deserunt la","description":"Officiis omnis Nam e","date":"2007-01-25T00:00:00.000000Z","time":"2024-10-23T20:54:00.000000Z","location":"Aut tempora vitae qu","category":"Nostrum numquam sapi","created_at":"2024-10-22T21:17:04.000000Z","updated_at":"2024-10-22T21:17:04.000000Z","primary_image":null},{"id":22,"title":"Nihil ullam distinct","description":"Sit nesciunt in re","date":"2019-10-05T00:00:00.000000Z","time":"2024-10-23T11:12:00.000000Z","location":"Molestiae dolores ma","category":"Pariatur Quasi sunt","created_at":"2024-10-23T18:59:54.000000Z","updated_at":"2024-10-23T18:59:54.000000Z","primary_image":null},{"id":23,"title":"Quo quia aperiam sed","description":"Voluptatem adipisici","date":"2023-01-22T00:00:00.000000Z","time":"2024-10-23T23:10:00.000000Z","location":"Officiis ex sit sin","category":"Sint et tempor volup","created_at":"2024-10-23T18:59:56.000000Z","updated_at":"2024-10-23T18:59:56.000000Z","primary_image":null},{"id":24,"title":"Ea ipsum excepturi c","description":"Ratione aut aute ali","date":"2017-12-16T00:00:00.000000Z","time":"2024-10-23T12:32:00.000000Z","location":"Officia eu praesenti","category":"Consequuntur vero ac","created_at":"2024-10-23T18:59:59.000000Z","updated_at":"2024-10-23T18:59:59.000000Z","primary_image":null}]
+[23-Oct-2024 19:00:02 UTC] Form submitted. POST data: Array
+(
+    [title] => Labore dolorem dicta
+    [description] => Aliquid quia irure t
+    [date] => 2015-01-08
+    [time] => 18:14
+    [location] => Anim non ut aut temp
+    [category] => Nam adipisicing cons
+    [submit] => Add Event
+)
+
+[23-Oct-2024 19:00:02 UTC] Attempting to add event. Data: Array
+(
+    [title] => Labore dolorem dicta
+    [description] => Aliquid quia irure t
+    [date] => 2015-01-08
+    [time] => 18:14
+    [location] => Anim non ut aut temp
+    [category] => Nam adipisicing cons
+    [submit] => Add Event
+)
+
+[23-Oct-2024 19:00:02 UTC] API Response Status: 201
+[23-Oct-2024 19:00:02 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"Labore dolorem dicta","description":"Aliquid quia irure t","date":"2015-01-08T00:00:00.000000Z","time":"2024-10-23T18:14:00.000000Z","location":"Anim non ut aut temp","category":"Nam adipisicing cons","updated_at":"2024-10-23T19:00:02.000000Z","created_at":"2024-10-23T19:00:02.000000Z","id":25}}
+[23-Oct-2024 19:00:03 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:00:03 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:00:03 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:03 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:03 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:03 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:03 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:03 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:03 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:03 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:03 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:03 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:08 UTC] API Connection Test Status: 200
+[23-Oct-2024 19:00:08 UTC] API Connection Test Body: [{"id":16,"title":"title of the event","description":"description of the event","date":"2024-10-25T00:00:00.000000Z","time":"2024-10-23T00:36:00.000000Z","location":"Sylhet","category":"moon light","created_at":"2024-10-22T18:36:13.000000Z","updated_at":"2024-10-22T18:36:13.000000Z","primary_image":null},{"id":17,"title":"Ullamco dolor dicta","description":"Accusantium incidunt","date":"1983-07-03T00:00:00.000000Z","time":"2024-10-23T07:05:00.000000Z","location":"Incididunt ipsum ad","category":"Quam pariatur Qui s","created_at":"2024-10-22T21:16:54.000000Z","updated_at":"2024-10-22T21:16:54.000000Z","primary_image":null},{"id":18,"title":"Ea dolor sequi aut v","description":"Laborum culpa Nam a","date":"1991-04-24T00:00:00.000000Z","time":"2024-10-23T08:33:00.000000Z","location":"Excepteur ullam anim","category":"Omnis amet assumend","created_at":"2024-10-22T21:16:58.000000Z","updated_at":"2024-10-22T21:16:58.000000Z","primary_image":null},{"id":19,"title":"In magna irure omnis","description":"Et est harum ex labo","date":"2006-08-10T00:00:00.000000Z","time":"2024-10-23T06:32:00.000000Z","location":"Lorem sint tempora","category":"Odit voluptatibus vo","created_at":"2024-10-22T21:17:00.000000Z","updated_at":"2024-10-22T21:17:00.000000Z","primary_image":null},{"id":20,"title":"Numquam sint sint e","description":"Ut aspernatur aliqui","date":"1981-01-17T00:00:00.000000Z","time":"2024-10-23T16:36:00.000000Z","location":"Voluptate laborum A","category":"Voluptas sapiente te","created_at":"2024-10-22T21:17:02.000000Z","updated_at":"2024-10-22T21:17:02.000000Z","primary_image":null},{"id":21,"title":"Sapiente deserunt la","description":"Officiis omnis Nam e","date":"2007-01-25T00:00:00.000000Z","time":"2024-10-23T20:54:00.000000Z","location":"Aut tempora vitae qu","category":"Nostrum numquam sapi","created_at":"2024-10-22T21:17:04.000000Z","updated_at":"2024-10-22T21:17:04.000000Z","primary_image":null},{"id":22,"title":"Nihil ullam distinct","description":"Sit nesciunt in re","date":"2019-10-05T00:00:00.000000Z","time":"2024-10-23T11:12:00.000000Z","location":"Molestiae dolores ma","category":"Pariatur Quasi sunt","created_at":"2024-10-23T18:59:54.000000Z","updated_at":"2024-10-23T18:59:54.000000Z","primary_image":null},{"id":23,"title":"Quo quia aperiam sed","description":"Voluptatem adipisici","date":"2023-01-22T00:00:00.000000Z","time":"2024-10-23T23:10:00.000000Z","location":"Officiis ex sit sin","category":"Sint et tempor volup","created_at":"2024-10-23T18:59:56.000000Z","updated_at":"2024-10-23T18:59:56.000000Z","primary_image":null},{"id":24,"title":"Ea ipsum excepturi c","description":"Ratione aut aute ali","date":"2017-12-16T00:00:00.000000Z","time":"2024-10-23T12:32:00.000000Z","location":"Officia eu praesenti","category":"Consequuntur vero ac","created_at":"2024-10-23T18:59:59.000000Z","updated_at":"2024-10-23T18:59:59.000000Z","primary_image":null},{"id":25,"title":"Labore dolorem dicta","description":"Aliquid quia irure t","date":"2015-01-08T00:00:00.000000Z","time":"2024-10-23T18:14:00.000000Z","location":"Anim non ut aut temp","category":"Nam adipisicing cons","created_at":"2024-10-23T19:00:02.000000Z","updated_at":"2024-10-23T19:00:02.000000Z","primary_image":null}]
+[23-Oct-2024 19:00:08 UTC] Form submitted. POST data: Array
+(
+    [title] => Odio culpa maxime e
+    [description] => Iusto exercitation c
+    [date] => 2012-05-13
+    [time] => 02:53
+    [location] => Ab minim suscipit id
+    [category] => Perferendis dolor ve
+    [submit] => Add Event
+)
+
+[23-Oct-2024 19:00:08 UTC] Attempting to add event. Data: Array
+(
+    [title] => Odio culpa maxime e
+    [description] => Iusto exercitation c
+    [date] => 2012-05-13
+    [time] => 02:53
+    [location] => Ab minim suscipit id
+    [category] => Perferendis dolor ve
+    [submit] => Add Event
+)
+
+[23-Oct-2024 19:00:08 UTC] API Response Status: 201
+[23-Oct-2024 19:00:08 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"Odio culpa maxime e","description":"Iusto exercitation c","date":"2012-05-13T00:00:00.000000Z","time":"2024-10-23T02:53:00.000000Z","location":"Ab minim suscipit id","category":"Perferendis dolor ve","updated_at":"2024-10-23T19:00:08.000000Z","created_at":"2024-10-23T19:00:08.000000Z","id":26}}
+[23-Oct-2024 19:00:10 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:00:10 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:00:10 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:10 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:10 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:10 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:10 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:10 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:10 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:10 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:10 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:10 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:10 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:13 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:00:13 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:00:13 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:13 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:13 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:13 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:13 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:13 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:13 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:13 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:13 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:13 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:13 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:16 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:00:16 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:00:16 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:16 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:16 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:16 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:16 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:16 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:16 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:16 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:16 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:16 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:16 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:25 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:00:25 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:00:25 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:25 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:25 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:25 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:25 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:25 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:25 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:25 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:25 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:25 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:25 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:31 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:00:31 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:00:31 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:31 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:31 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:31 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:31 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:31 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:31 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:31 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:31 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:31 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:31 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:00:39 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:00:39 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:00:43 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:00:43 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:00:50 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:00:50 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:00:55 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:00:55 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:01:00 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:01:00 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:01:06 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:01:06 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:01:27 UTC] API Connection Test Status: 200
+[23-Oct-2024 19:01:27 UTC] API Connection Test Body: [{"id":16,"title":"title of the event","description":"description of the event","date":"2024-10-25T00:00:00.000000Z","time":"2024-10-23T00:36:00.000000Z","location":"Sylhet","category":"moon light","created_at":"2024-10-22T18:36:13.000000Z","updated_at":"2024-10-22T18:36:13.000000Z","primary_image":null},{"id":17,"title":"Ullamco dolor dicta","description":"Accusantium incidunt","date":"1983-07-03T00:00:00.000000Z","time":"2024-10-23T07:05:00.000000Z","location":"Incididunt ipsum ad","category":"Quam pariatur Qui s","created_at":"2024-10-22T21:16:54.000000Z","updated_at":"2024-10-22T21:16:54.000000Z","primary_image":null},{"id":18,"title":"Ea dolor sequi aut v","description":"Laborum culpa Nam a","date":"1991-04-24T00:00:00.000000Z","time":"2024-10-23T08:33:00.000000Z","location":"Excepteur ullam anim","category":"Omnis amet assumend","created_at":"2024-10-22T21:16:58.000000Z","updated_at":"2024-10-22T21:16:58.000000Z","primary_image":null},{"id":19,"title":"In magna irure omnis","description":"Et est harum ex labo","date":"2006-08-10T00:00:00.000000Z","time":"2024-10-23T06:32:00.000000Z","location":"Lorem sint tempora","category":"Odit voluptatibus vo","created_at":"2024-10-22T21:17:00.000000Z","updated_at":"2024-10-22T21:17:00.000000Z","primary_image":null},{"id":20,"title":"Numquam sint sint e","description":"Ut aspernatur aliqui","date":"1981-01-17T00:00:00.000000Z","time":"2024-10-23T16:36:00.000000Z","location":"Voluptate laborum A","category":"Voluptas sapiente te","created_at":"2024-10-22T21:17:02.000000Z","updated_at":"2024-10-22T21:17:02.000000Z","primary_image":null},{"id":21,"title":"Sapiente deserunt la","description":"Officiis omnis Nam e","date":"2007-01-25T00:00:00.000000Z","time":"2024-10-23T20:54:00.000000Z","location":"Aut tempora vitae qu","category":"Nostrum numquam sapi","created_at":"2024-10-22T21:17:04.000000Z","updated_at":"2024-10-22T21:17:04.000000Z","primary_image":null},{"id":22,"title":"Nihil ullam distinct","description":"Sit nesciunt in re","date":"2019-10-05T00:00:00.000000Z","time":"2024-10-23T11:12:00.000000Z","location":"Molestiae dolores ma","category":"Pariatur Quasi sunt","created_at":"2024-10-23T18:59:54.000000Z","updated_at":"2024-10-23T18:59:54.000000Z","primary_image":null},{"id":23,"title":"Quo quia aperiam sed","description":"Voluptatem adipisici","date":"2023-01-22T00:00:00.000000Z","time":"2024-10-23T23:10:00.000000Z","location":"Officiis ex sit sin","category":"Sint et tempor volup","created_at":"2024-10-23T18:59:56.000000Z","updated_at":"2024-10-23T18:59:56.000000Z","primary_image":null},{"id":24,"title":"Ea ipsum excepturi c","description":"Ratione aut aute ali","date":"2017-12-16T00:00:00.000000Z","time":"2024-10-23T12:32:00.000000Z","location":"Officia eu praesenti","category":"Consequuntur vero ac","created_at":"2024-10-23T18:59:59.000000Z","updated_at":"2024-10-23T18:59:59.000000Z","primary_image":null},{"id":25,"title":"Labore dolorem dicta","description":"Aliquid quia irure t","date":"2015-01-08T00:00:00.000000Z","time":"2024-10-23T18:14:00.000000Z","location":"Anim non ut aut temp","category":"Nam adipisicing cons","created_at":"2024-10-23T19:00:02.000000Z","updated_at":"2024-10-23T19:00:02.000000Z","primary_image":null},{"id":26,"title":"Odio culpa maxime e","description":"Iusto exercitation c","date":"2012-05-13T00:00:00.000000Z","time":"2024-10-23T02:53:00.000000Z","location":"Ab minim suscipit id","category":"Perferendis dolor ve","created_at":"2024-10-23T19:00:08.000000Z","updated_at":"2024-10-23T19:00:08.000000Z","primary_image":null}]
+[23-Oct-2024 19:01:27 UTC] Form submitted. POST data: Array
+(
+    [title] => adsasdsa
+    [description] => sdaasd
+    [date] => 2024-10-24
+    [time] => 01:01
+    [location] => asdsd
+    [category] => moon light
+    [submit] => Add Event
+)
+
+[23-Oct-2024 19:01:27 UTC] Attempting to add event. Data: Array
+(
+    [title] => adsasdsa
+    [description] => sdaasd
+    [date] => 2024-10-24
+    [time] => 01:01
+    [location] => asdsd
+    [category] => moon light
+    [submit] => Add Event
+)
+
+[23-Oct-2024 19:01:27 UTC] API Response Status: 201
+[23-Oct-2024 19:01:27 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"adsasdsa","description":"sdaasd","date":"2024-10-24T00:00:00.000000Z","time":"2024-10-23T01:01:00.000000Z","location":"asdsd","category":"moon light","updated_at":"2024-10-23T19:01:27.000000Z","created_at":"2024-10-23T19:01:27.000000Z","id":27}}
+[23-Oct-2024 19:01:29 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:01:29 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:01:39 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:01:39 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:02:34 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:02:34 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 159
+[23-Oct-2024 19:02:34 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:02:34 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:02:34 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:02:34 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:02:34 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:02:34 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:02:34 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:02:34 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:02:34 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:02:34 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:02:34 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 168
+[23-Oct-2024 19:07:33 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:07:33 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:07:38 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:07:38 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:07:38 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 167
+[23-Oct-2024 19:07:38 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 167
+[23-Oct-2024 19:07:38 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 167
+[23-Oct-2024 19:07:38 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 167
+[23-Oct-2024 19:07:38 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 167
+[23-Oct-2024 19:07:38 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 167
+[23-Oct-2024 19:07:38 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 167
+[23-Oct-2024 19:07:38 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 167
+[23-Oct-2024 19:07:38 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 167
+[23-Oct-2024 19:07:38 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 167
+[23-Oct-2024 19:07:38 UTC] PHP Warning:  Undefined array key "category" in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 167
+[23-Oct-2024 19:08:49 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:08:49 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:09:32 UTC] API Connection Test Status: 200
+[23-Oct-2024 19:09:32 UTC] API Connection Test Body: [{"id":16,"title":"title of the event","description":"description of the event","date":"2024-10-25T00:00:00.000000Z","time":"2024-10-23T00:36:00.000000Z","location":"Sylhet","category":"moon light","created_at":"2024-10-22T18:36:13.000000Z","updated_at":"2024-10-22T18:36:13.000000Z","primary_image":null},{"id":17,"title":"Ullamco dolor dicta","description":"Accusantium incidunt","date":"1983-07-03T00:00:00.000000Z","time":"2024-10-23T07:05:00.000000Z","location":"Incididunt ipsum ad","category":"Quam pariatur Qui s","created_at":"2024-10-22T21:16:54.000000Z","updated_at":"2024-10-22T21:16:54.000000Z","primary_image":null},{"id":18,"title":"Ea dolor sequi aut v","description":"Laborum culpa Nam a","date":"1991-04-24T00:00:00.000000Z","time":"2024-10-23T08:33:00.000000Z","location":"Excepteur ullam anim","category":"Omnis amet assumend","created_at":"2024-10-22T21:16:58.000000Z","updated_at":"2024-10-22T21:16:58.000000Z","primary_image":null},{"id":19,"title":"In magna irure omnis","description":"Et est harum ex labo","date":"2006-08-10T00:00:00.000000Z","time":"2024-10-23T06:32:00.000000Z","location":"Lorem sint tempora","category":"Odit voluptatibus vo","created_at":"2024-10-22T21:17:00.000000Z","updated_at":"2024-10-22T21:17:00.000000Z","primary_image":null},{"id":20,"title":"Numquam sint sint e","description":"Ut aspernatur aliqui","date":"1981-01-17T00:00:00.000000Z","time":"2024-10-23T16:36:00.000000Z","location":"Voluptate laborum A","category":"Voluptas sapiente te","created_at":"2024-10-22T21:17:02.000000Z","updated_at":"2024-10-22T21:17:02.000000Z","primary_image":null},{"id":21,"title":"Sapiente deserunt la","description":"Officiis omnis Nam e","date":"2007-01-25T00:00:00.000000Z","time":"2024-10-23T20:54:00.000000Z","location":"Aut tempora vitae qu","category":"Nostrum numquam sapi","created_at":"2024-10-22T21:17:04.000000Z","updated_at":"2024-10-22T21:17:04.000000Z","primary_image":null},{"id":22,"title":"Nihil ullam distinct","description":"Sit nesciunt in re","date":"2019-10-05T00:00:00.000000Z","time":"2024-10-23T11:12:00.000000Z","location":"Molestiae dolores ma","category":"Pariatur Quasi sunt","created_at":"2024-10-23T18:59:54.000000Z","updated_at":"2024-10-23T18:59:54.000000Z","primary_image":null},{"id":23,"title":"Quo quia aperiam sed","description":"Voluptatem adipisici","date":"2023-01-22T00:00:00.000000Z","time":"2024-10-23T23:10:00.000000Z","location":"Officiis ex sit sin","category":"Sint et tempor volup","created_at":"2024-10-23T18:59:56.000000Z","updated_at":"2024-10-23T18:59:56.000000Z","primary_image":null},{"id":24,"title":"Ea ipsum excepturi c","description":"Ratione aut aute ali","date":"2017-12-16T00:00:00.000000Z","time":"2024-10-23T12:32:00.000000Z","location":"Officia eu praesenti","category":"Consequuntur vero ac","created_at":"2024-10-23T18:59:59.000000Z","updated_at":"2024-10-23T18:59:59.000000Z","primary_image":null},{"id":25,"title":"Labore dolorem dicta","description":"Aliquid quia irure t","date":"2015-01-08T00:00:00.000000Z","time":"2024-10-23T18:14:00.000000Z","location":"Anim non ut aut temp","category":"Nam adipisicing cons","created_at":"2024-10-23T19:00:02.000000Z","updated_at":"2024-10-23T19:00:02.000000Z","primary_image":null},{"id":26,"title":"Odio culpa maxime e","description":"Iusto exercitation c","date":"2012-05-13T00:00:00.000000Z","time":"2024-10-23T02:53:00.000000Z","location":"Ab minim suscipit id","category":"Perferendis dolor ve","created_at":"2024-10-23T19:00:08.000000Z","updated_at":"2024-10-23T19:00:08.000000Z","primary_image":null},{"id":27,"title":"adsasdsa","description":"sdaasd","date":"2024-10-24T00:00:00.000000Z","time":"2024-10-23T01:01:00.000000Z","location":"asdsd","category":"moon light","created_at":"2024-10-23T19:01:27.000000Z","updated_at":"2024-10-23T19:01:27.000000Z","primary_image":null}]
+[23-Oct-2024 19:09:33 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:09:33 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:12:07 UTC] API Connection Test Status: 200
+[23-Oct-2024 19:12:07 UTC] API Connection Test Body: [{"id":16,"title":"title of the event","description":"description of the event","date":"2024-10-25T00:00:00.000000Z","time":"2024-10-23T00:36:00.000000Z","location":"Sylhet","category":"moon light","created_at":"2024-10-22T18:36:13.000000Z","updated_at":"2024-10-22T18:36:13.000000Z","primary_image":null},{"id":17,"title":"Ullamco dolor dicta","description":"Accusantium incidunt","date":"1983-07-03T00:00:00.000000Z","time":"2024-10-23T07:05:00.000000Z","location":"Incididunt ipsum ad","category":"Quam pariatur Qui s","created_at":"2024-10-22T21:16:54.000000Z","updated_at":"2024-10-22T21:16:54.000000Z","primary_image":null},{"id":18,"title":"Ea dolor sequi aut v","description":"Laborum culpa Nam a","date":"1991-04-24T00:00:00.000000Z","time":"2024-10-23T08:33:00.000000Z","location":"Excepteur ullam anim","category":"Omnis amet assumend","created_at":"2024-10-22T21:16:58.000000Z","updated_at":"2024-10-22T21:16:58.000000Z","primary_image":null},{"id":19,"title":"In magna irure omnis","description":"Et est harum ex labo","date":"2006-08-10T00:00:00.000000Z","time":"2024-10-23T06:32:00.000000Z","location":"Lorem sint tempora","category":"Odit voluptatibus vo","created_at":"2024-10-22T21:17:00.000000Z","updated_at":"2024-10-22T21:17:00.000000Z","primary_image":null},{"id":20,"title":"Numquam sint sint e","description":"Ut aspernatur aliqui","date":"1981-01-17T00:00:00.000000Z","time":"2024-10-23T16:36:00.000000Z","location":"Voluptate laborum A","category":"Voluptas sapiente te","created_at":"2024-10-22T21:17:02.000000Z","updated_at":"2024-10-22T21:17:02.000000Z","primary_image":null},{"id":21,"title":"Sapiente deserunt la","description":"Officiis omnis Nam e","date":"2007-01-25T00:00:00.000000Z","time":"2024-10-23T20:54:00.000000Z","location":"Aut tempora vitae qu","category":"Nostrum numquam sapi","created_at":"2024-10-22T21:17:04.000000Z","updated_at":"2024-10-22T21:17:04.000000Z","primary_image":null},{"id":22,"title":"Nihil ullam distinct","description":"Sit nesciunt in re","date":"2019-10-05T00:00:00.000000Z","time":"2024-10-23T11:12:00.000000Z","location":"Molestiae dolores ma","category":"Pariatur Quasi sunt","created_at":"2024-10-23T18:59:54.000000Z","updated_at":"2024-10-23T18:59:54.000000Z","primary_image":null},{"id":23,"title":"Quo quia aperiam sed","description":"Voluptatem adipisici","date":"2023-01-22T00:00:00.000000Z","time":"2024-10-23T23:10:00.000000Z","location":"Officiis ex sit sin","category":"Sint et tempor volup","created_at":"2024-10-23T18:59:56.000000Z","updated_at":"2024-10-23T18:59:56.000000Z","primary_image":null},{"id":24,"title":"Ea ipsum excepturi c","description":"Ratione aut aute ali","date":"2017-12-16T00:00:00.000000Z","time":"2024-10-23T12:32:00.000000Z","location":"Officia eu praesenti","category":"Consequuntur vero ac","created_at":"2024-10-23T18:59:59.000000Z","updated_at":"2024-10-23T18:59:59.000000Z","primary_image":null},{"id":25,"title":"Labore dolorem dicta","description":"Aliquid quia irure t","date":"2015-01-08T00:00:00.000000Z","time":"2024-10-23T18:14:00.000000Z","location":"Anim non ut aut temp","category":"Nam adipisicing cons","created_at":"2024-10-23T19:00:02.000000Z","updated_at":"2024-10-23T19:00:02.000000Z","primary_image":null},{"id":26,"title":"Odio culpa maxime e","description":"Iusto exercitation c","date":"2012-05-13T00:00:00.000000Z","time":"2024-10-23T02:53:00.000000Z","location":"Ab minim suscipit id","category":"Perferendis dolor ve","created_at":"2024-10-23T19:00:08.000000Z","updated_at":"2024-10-23T19:00:08.000000Z","primary_image":null},{"id":27,"title":"adsasdsa","description":"sdaasd","date":"2024-10-24T00:00:00.000000Z","time":"2024-10-23T01:01:00.000000Z","location":"asdsd","category":"moon light","created_at":"2024-10-23T19:01:27.000000Z","updated_at":"2024-10-23T19:01:27.000000Z","primary_image":null}]
+[23-Oct-2024 19:12:09 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:12:09 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:30:54 UTC] Attempting to add event. Data: Array
+(
+    [title] => Tech Innovations Conference
+    [description] => Join industry leaders and experts as they discuss groundbreaking technologies shaping our future. This conference will cover topics such as AI, IoT, and Blockchain, featuring keynote speeches, panel discussions, and networking opportunities. Whether you’re a tech enthusiast or a professional, you’ll gain insights to stay ahead in this rapidly evolving field.
+    [date] => 2024-10-24
+    [time] => 15:30
+    [location] => Sylhet
+    [category] => Workshop
+)
+
+[23-Oct-2024 19:30:55 UTC] API Response Status: 201
+[23-Oct-2024 19:30:55 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"Tech Innovations Conference","description":"Join industry leaders and experts as they discuss groundbreaking technologies shaping our future. This conference will cover topics such as AI, IoT, and Blockchain, featuring keynote speeches, panel discussions, and networking opportunities. Whether you\u2019re a tech enthusiast or a professional, you\u2019ll gain insights to stay ahead in this rapidly evolving field.","date":"2024-10-24T00:00:00.000000Z","time":"2024-10-23T15:30:00.000000Z","location":"Sylhet","category":"Workshop","updated_at":"2024-10-23T19:30:55.000000Z","created_at":"2024-10-23T19:30:55.000000Z","id":28}}
+[23-Oct-2024 19:31:09 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:31:09 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:32:22 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:32:22 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:32:44 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:32:44 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:33:01 UTC] Attempting to add event. Data: Array
+(
+    [title] => Vitae ipsum molliti
+    [description] => Aut sed corrupti re
+    [date] => 2008-04-02
+    [time] => 21:51
+    [location] => Voluptatem Eu animi
+    [category] => Workshop
+)
+
+[23-Oct-2024 19:33:01 UTC] API Response Status: 201
+[23-Oct-2024 19:33:01 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"Vitae ipsum molliti","description":"Aut sed corrupti re","date":"2008-04-02T00:00:00.000000Z","time":"2024-10-23T21:51:00.000000Z","location":"Voluptatem Eu animi","category":"Workshop","updated_at":"2024-10-23T19:33:01.000000Z","created_at":"2024-10-23T19:33:01.000000Z","id":29}}
+[23-Oct-2024 19:33:14 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:33:14 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:33:18 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:33:18 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:34:39 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:34:39 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:35:29 UTC] Attempting to add event. Data: Array
+(
+    [title] => Sint accusamus rerum
+    [description] => Laborum Velit dolor
+    [date] => 2022-09-06
+    [time] => 19:20
+    [location] => Enim amet nulla ab
+    [category] => Conference
+)
+
+[23-Oct-2024 19:35:29 UTC] API Response Status: 201
+[23-Oct-2024 19:35:29 UTC] API Response Body: {"message":"Event created successfully","event":{"title":"Sint accusamus rerum","description":"Laborum Velit dolor","date":"2022-09-06T00:00:00.000000Z","time":"2024-10-23T19:20:00.000000Z","location":"Enim amet nulla ab","category":"Conference","updated_at":"2024-10-23T19:35:29.000000Z","created_at":"2024-10-23T19:35:29.000000Z","id":30}}
+[23-Oct-2024 19:35:30 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:35:30 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:35:35 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:35:35 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:35:40 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 19:35:40 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 20:07:14 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 20:07:14 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 20:07:16 UTC] PHP Warning:  include(C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css): Failed to open stream: No such file or directory in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
+[23-Oct-2024 20:07:16 UTC] PHP Warning:  include(): Failed opening 'C:\Users\tahmid\Local Sites\event-service-final-backup\app\public/wp-content/themes/astra-child/css/event-list.css' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\tahmid\Local Sites\event-service-final-backup\app\public\wp-content\themes\astra-child\functions.php on line 155
