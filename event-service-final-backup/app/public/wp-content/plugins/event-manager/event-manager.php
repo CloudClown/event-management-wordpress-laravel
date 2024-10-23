@@ -41,3 +41,42 @@ function em_get_event_details() {
     wp_die();
 }
 add_action('wp_ajax_get_event_details', 'em_get_event_details');
+
+// delete
+add_action('admin_post_edit_event', 'handle_edit_event');
+add_action('admin_post_nopriv_edit_event', 'handle_edit_event');
+
+function handle_edit_event() {
+    error_log('handle_edit_event function called');
+    error_log('POST data: ' . print_r($_POST, true));
+
+    if (isset($_POST['submit']) && isset($_POST['event_id'])) {
+        $event_id = intval($_POST['event_id']);
+        $event_data = array(
+            'title' => sanitize_text_field($_POST['title']),
+            'description' => sanitize_textarea_field($_POST['description']),
+            'date' => sanitize_text_field($_POST['date']),
+            'time' => sanitize_text_field($_POST['time']),
+            'location' => sanitize_text_field($_POST['location']),
+            'category' => sanitize_text_field($_POST['category']),
+        );
+
+        error_log('Attempting to update event with ID: ' . $event_id);
+        error_log('Event data: ' . print_r($event_data, true));
+
+        $result = em_update_event($event_id, $event_data);
+
+        if ($result) {
+            error_log('Event updated successfully');
+            wp_redirect(admin_url('admin.php?page=event-management&message=updated'));
+        } else {
+            error_log('Failed to update event');
+            wp_redirect(admin_url('admin.php?page=event-management&message=error'));
+        }
+        exit;
+    } else {
+        error_log('Required POST data missing');
+        wp_redirect(admin_url('admin.php?page=event-management&message=error'));
+        exit;
+    }
+}

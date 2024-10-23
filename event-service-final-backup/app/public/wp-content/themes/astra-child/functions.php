@@ -184,8 +184,11 @@ function event_list_shortcode($atts)
 
             <div class="event-list-items" data-view="grid">
                 <?php foreach ($events as $event):
-                    $date = new DateTime($event['date']);
-                    $time = new DateTime($event['time']);
+                if (!is_array($event)) {
+                    continue; 
+                }
+                    $date = isset($event['date']) && !empty($event['date']) ? new DateTime($event['date']) : null;
+                    $time = isset($event['time']) && !empty($event['time']) ? new DateTime($event['time']) : null;
                 ?>
                     <div class="event-list-item">
                         <div class="event-list-image" style="background-image: url('<?php echo esc_url($event['image_url'] ?? ''); ?>');">
@@ -199,10 +202,10 @@ function event_list_shortcode($atts)
                         <div class="event-list-content">
                             <h3 class="event-list-title"><?php echo esc_html($event['title']); ?></h3>
                             <div class="event-list-meta">
-                                <p class="event-list-time">
-                                    <span class="emoji">&#128337;</span>
-                                    <?php echo $time->format('g:i A'); ?>
-                                </p>
+                            <p class="event-list-time">
+    <span class="emoji">&#128337;</span>
+    <?php echo $time ? $time->format('g:i A') : 'TBA'; ?>
+</p>
                                 <p class="event-list-location">
                                     <span class="emoji">&#128205;</span>
                                     <?php echo esc_html($event['location'] ?? 'TBA'); ?>

@@ -8,6 +8,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Log;
 
+
+
 class EventController extends Controller
 {
     public function index()
@@ -34,7 +36,7 @@ class EventController extends Controller
                 'title' => 'required|string|max:255',
                 'description' => 'required|string',
                 'date' => 'required|date',
-                'time' => 'required|date_format:H:i',
+                'time' => 'required|date_format:H:i:s',  // Changed from H:i to H:i:s
                 'location' => 'required|string|max:255',
                 'category' => 'required|string|max:255',
             ]);
@@ -85,20 +87,20 @@ class EventController extends Controller
     {
         try {
             $event = Event::findOrFail($id);
-
+    
             $validator = Validator::make($request->all(), [
                 'title' => 'string|max:255',
                 'description' => 'string',
                 'date' => 'date',
-                'time' => 'date_format:H:i',
+                'time' => 'date_format:H:i:s',
                 'location' => 'string|max:255',
                 'category' => 'string|max:255',
             ]);
-
+    
             if ($validator->fails()) {
                 return response()->json(['errors' => $validator->errors()], 422);
             }
-
+    
             $event->update($request->all());
             return response()->json($event);
         } catch (\Illuminate\Database\Eloquent\ModelNotFoundException $e) {

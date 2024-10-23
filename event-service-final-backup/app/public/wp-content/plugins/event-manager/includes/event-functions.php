@@ -40,8 +40,7 @@ function em_get_event($event_id)
 
     return json_decode($body);
 }
-function em_add_event($event_data)
-{
+function em_add_event($event_data) {
     $api_url = 'http://localhost:8000/api/v1/events';
 
     // Format date and time
@@ -57,55 +56,64 @@ function em_add_event($event_data)
     ));
 
     if (is_wp_error($response)) {
-        error_log('WordPress Error: ' . $response->get_error_message());
+        error_log('WP Error: ' . $response->get_error_message());
         return false;
     }
 
-    $status_code = wp_remote_retrieve_response_code($response);
-    $body = wp_remote_retrieve_body($response);
+    $response_code = wp_remote_retrieve_response_code($response);
+    $response_body = wp_remote_retrieve_body($response);
 
-    error_log('API Response Status: ' . $status_code);
-    error_log('API Response Body: ' . $body);
+    error_log('API Response Code: ' . $response_code);
+    error_log('API Response Body: ' . $response_body);
 
-    if ($status_code !== 201) {
-        error_log('API Error: Unexpected status code ' . $status_code);
+    if ($response_code === 201) {
+        $event = json_decode($response_body);
+        if (json_last_error() === JSON_ERROR_NONE) {
+            return $event;
+        } else {
+            error_log('JSON Decode Error: ' . json_last_error_msg());
+            return false;
+        }
+    } else {
+        error_log('API Error: ' . $response_body);
         return false;
     }
-
-    return json_decode($body);
 }
+function em_update_event($event_id, $event_data) {
+    error_log('em_update_event function called');
+    error_log('Event ID: ' . $event_id);
+    error_log('Event data: ' . print_r($event_data, true));
 
-function em_update_event($event_id, $event_data)
-{
     $api_url = 'http://localhost:8000/api/v1/events/' . $event_id;
 
     // Format date and time
-    $event_data['date'] = date('Y-m-d', strtotime($event_data['date']));
-    $event_data['time'] = date('H:i:s', strtotime($event_data['time']));
+    if (isset($event_data['date'])) {
+        $event_data['date'] = date('Y-m-d', strtotime($event_data['date']));
+    }
+    if (isset($event_data['time'])) {
+        $event_data['time'] = date('H:i:s', strtotime($event_data['time']));
+    }
 
     $response = wp_remote_request($api_url, array(
-        'method' => 'PUT',
-        'body' => json_encode($event_data),
+        'method'  => 'PUT',
         'headers' => array('Content-Type' => 'application/json'),
+        'body'    => json_encode($event_data),
         'timeout' => 45,
     ));
 
     if (is_wp_error($response)) {
-        error_log('Error updating event: ' . $response->get_error_message());
+        error_log('WP Error: ' . $response->get_error_message());
         return false;
     }
 
-    $status_code = wp_remote_retrieve_response_code($response);
-    $body = wp_remote_retrieve_body($response);
+    $response_code = wp_remote_retrieve_response_code($response);
+    $response_body = wp_remote_retrieve_body($response);
 
-    if ($status_code !== 200) {
-        error_log('Error updating event. Status code: ' . $status_code . ', Body: ' . $body);
-        return false;
-    }
+    error_log('API Update Response Code: ' . $response_code);
+    error_log('API Update Response Body: ' . $response_body);
 
-    return json_decode($body);
+    return $response_code === 200;
 }
-
 function em_delete_event($event_id)
 {
     $api_url = 'http://localhost:8000/api/v1/events/' . $event_id;

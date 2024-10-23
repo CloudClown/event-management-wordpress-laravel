@@ -1,44 +1,69 @@
+<?php
+$event_id = isset($_GET['id']) ? intval($_GET['id']) : 0;
+$event = $event_id ? em_get_event($event_id) : null;
+
+if (isset($_POST['submit'])) {
+    $event_data = array(
+        'title' => sanitize_text_field($_POST['title']),
+        'description' => sanitize_textarea_field($_POST['description']),
+        'date' => sanitize_text_field($_POST['date']),
+        'time' => sanitize_text_field($_POST['time']),
+        'location' => sanitize_text_field($_POST['location']),
+        'category' => sanitize_text_field($_POST['category'])
+    );
+
+    $result = em_update_event($event_id, $event_data);
+
+    if ($result) {
+        echo '<div class="notice notice-success is-dismissible"><p>Event updated successfully!</p></div>';
+        $event = em_get_event($event_id); // Refresh event data
+    } else {
+        echo '<div class="notice notice-error is-dismissible"><p>Error updating event. Please try again.</p></div>';
+    }
+}
+?>
+
 <div class="wrap em-container">
-    <h1 class="em-title"><?php echo isset($_GET['id']) ? 'Edit Event' : 'Add New Event'; ?></h1>
+    <h1 class="em-title">Edit Event</h1>
     <form method="post" action="" class="em-form">
         <div class="em-form-group">
             <label for="title" class="em-label">Title</label>
-            <input name="title" id="title" type="text" class="em-input" required value="<?php echo isset($event) ? esc_attr($event->title) : ''; ?>">
+            <input name="title" id="title" type="text" class="em-input" required value="<?php echo esc_attr($event->title); ?>">
         </div>
         <div class="em-form-group">
             <label for="description" class="em-label">Description</label>
-            <textarea name="description" id="description" rows="5" class="em-textarea" required><?php echo isset($event) ? esc_textarea($event->description) : ''; ?></textarea>
+            <textarea name="description" id="description" rows="5" class="em-textarea" required><?php echo esc_textarea($event->description); ?></textarea>
         </div>
         <div class="em-form-row">
             <div class="em-form-group">
                 <label for="date" class="em-label">Date</label>
-                <input name="date" id="date" type="date" class="em-input" required value="<?php echo isset($event) ? esc_attr($event->date) : ''; ?>">
+                <input name="date" id="date" type="date" class="em-input" required value="<?php echo esc_attr($event->date); ?>">
             </div>
             <div class="em-form-group">
                 <label for="time" class="em-label">Time</label>
-                <input name="time" id="time" type="time" class="em-input" required value="<?php echo isset($event) ? esc_attr($event->time) : ''; ?>">
+                <input name="time" id="time" type="time" class="em-input" required value="<?php echo esc_attr(date('H:i', strtotime($event->time))); ?>">
             </div>
         </div>
         <div class="em-form-group">
             <label for="location" class="em-label">Location</label>
-            <input name="location" id="location" type="text" class="em-input" required value="<?php echo isset($event) ? esc_attr($event->location) : ''; ?>">
+            <input name="location" id="location" type="text" class="em-input" required value="<?php echo esc_attr($event->location); ?>">
         </div>
         <div class="em-form-group">
             <label for="category" class="em-label">Category</label>
             <select name="category" id="category" class="em-select" required>
                 <option value="">Select a category</option>
-                <option value="Conference" <?php echo (isset($event) && $event->category == 'Conference') ? 'selected' : ''; ?>>Conference</option>
-                <option value="Seminar" <?php echo (isset($event) && $event->category == 'Seminar') ? 'selected' : ''; ?>>Seminar</option>
-                <option value="Workshop" <?php echo (isset($event) && $event->category == 'Workshop') ? 'selected' : ''; ?>>Workshop</option>
-                <option value="Webinar" <?php echo (isset($event) && $event->category == 'Webinar') ? 'selected' : ''; ?>>Webinar</option>
-                <option value="Networking" <?php echo (isset($event) && $event->category == 'Networking') ? 'selected' : ''; ?>>Networking</option>
+                <?php
+                $categories = array('Conference', 'Seminar', 'Workshop', 'Webinar', 'Networking');
+                foreach ($categories as $category) {
+                    $selected = ($event->category == $category) ? 'selected' : '';
+                    echo "<option value=\"$category\" $selected>$category</option>";
+                }
+                ?>
             </select>
         </div>
-        <?php if (isset($event)) : ?>
-            <input type="hidden" name="event_id" value="<?php echo $event_id; ?>">
-        <?php endif; ?>
+        <input type="hidden" name="event_id" value="<?php echo $event_id; ?>">
         <div class="em-form-group">
-            <input type="submit" name="submit" id="submit" class="em-submit" value="<?php echo isset($event) ? 'Update Event' : 'Add Event'; ?>">
+            <input type="submit" name="submit" id="submit" class="em-submit" value="Update Event">
         </div>
     </form>
 </div>
@@ -92,7 +117,7 @@
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 16px;
-    transition: border-color 0.3s;
+    transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 .em-input:focus,
@@ -100,6 +125,7 @@
 .em-select:focus {
     outline: none;
     border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
 }
 
 .em-submit {
@@ -111,10 +137,14 @@
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.1s;
 }
 
 .em-submit:hover {
     background-color: #2980b9;
+}
+
+.em-submit:active {
+    transform: translateY(1px);
 }
 </style>
